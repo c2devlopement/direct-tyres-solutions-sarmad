@@ -14,7 +14,7 @@ import {
   Phone,
   Car,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -362,20 +362,7 @@ export default function ManchesterCityCentrePage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative w-full h-80 rounded-2xl overflow-hidden bg-primary-dark flex items-center justify-center">
-                <div className="absolute inset-0 opacity-15 pointer-events-none flex items-center justify-center">
-                  <div className="w-64 h-64 rounded-full border-2 border-dashed border-secondary/50" />
-                  <div className="w-40 h-40 rounded-full border border-white/20 absolute" />
-                </div>
-                <div className="relative z-10 flex flex-col items-center text-center">
-                  <span className="relative flex h-4 w-4 mb-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75" />
-                    <span className="relative inline-flex rounded-full h-4 w-4 bg-secondary" />
-                  </span>
-                  <div className="text-xl font-semibold text-white">Manchester City Centre Hub</div>
-                  <div className="text-sm text-secondary-hover">Covering M1, M2, M3, M4 postcodes</div>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Manchester City Centre" />
             </div>
           </div>
         </div>
@@ -410,7 +397,6 @@ export default function ManchesterCityCentrePage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Manchester City Centre" />
     </main>
   );
 }

@@ -15,7 +15,7 @@ import {
   Radar,
   Navigation,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -357,41 +357,7 @@ export default function CheethamHillPage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative w-full aspect-[16/10] rounded-2xl bg-primary p-6 overflow-hidden shadow-2xl flex flex-col justify-between">
-                <div className="relative z-10 flex items-center justify-between text-white">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2.5 h-2.5 rounded-full bg-secondary animate-ping" />
-                    <span className="text-[11px] font-bold uppercase tracking-widest text-secondary-hover">GPS Node: 53.5042&deg; N, 2.2389&deg; W</span>
-                  </div>
-                  <span className="text-sm text-white/70">Zone: Cheetham Hill (M8)</span>
-                </div>
-                <div className="relative z-10 flex flex-col items-center justify-center my-auto">
-                  <div className="relative flex items-center justify-center">
-                    <span className="animate-ping absolute inline-flex h-20 w-20 rounded-full bg-secondary opacity-30" />
-                    <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-primary shadow-lg z-10">
-                      <MapPin className="h-6 w-6" />
-                    </div>
-                  </div>
-                  <div className="mt-3 px-3 py-1 rounded-md bg-white/15 backdrop-blur-md">
-                    <span className="text-[22px] leading-[28px] font-bold text-white">Cheetham Hill Hub</span>
-                  </div>
-                  <span className="text-[11px] text-secondary mt-1">20-35 MIN SERVICE PERIMETER</span>
-                </div>
-                <div className="relative z-10 grid grid-cols-3 gap-2 pt-4 bg-primary-dark/40 backdrop-blur-sm -mx-6 -mb-6 p-4">
-                  <div>
-                    <span className="block text-[11px] text-secondary-hover">ACTIVE VANS</span>
-                    <span className="text-sm font-bold text-white">3 Mobile Units</span>
-                  </div>
-                  <div>
-                    <span className="block text-[11px] text-secondary-hover">CALL QUEUE</span>
-                    <span className="text-sm font-bold text-secondary">Zero Wait Time</span>
-                  </div>
-                  <div>
-                    <span className="block text-[11px] text-secondary-hover">AVG TRANSIT</span>
-                    <span className="text-sm font-bold text-white">24 Minutes</span>
-                  </div>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Cheetham Hill" className="aspect-[16/10] h-auto" />
             </div>
           </div>
         </div>
@@ -428,7 +394,6 @@ export default function CheethamHillPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Cheetham Hill" />
     </main>
   );
 }

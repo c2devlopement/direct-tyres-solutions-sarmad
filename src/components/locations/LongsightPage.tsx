@@ -6,9 +6,8 @@ import {
   MapPin,
   ShieldCheck,
   ChevronDown,
-  Radar,
-} from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+  } from "lucide-react";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -312,15 +311,7 @@ export default function LongsightPage() {
               </p>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden bg-primary flex items-center justify-center">
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-56 h-56 rounded-full border-2 border-dashed border-secondary/40 animate-spin" style={{ animationDuration: "40s" }} />
-                  <Radar className="absolute h-10 w-10 text-white/30" />
-                </div>
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-3 py-1 rounded-md bg-white/95 backdrop-blur text-primary-dark text-[11px] font-bold uppercase shadow-md">
-                  Longsight (M12/M13)
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Longsight" className="h-80 sm:h-96" />
             </div>
           </div>
         </div>
@@ -352,7 +343,6 @@ export default function LongsightPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Longsight" />
     </main>
   );
 }

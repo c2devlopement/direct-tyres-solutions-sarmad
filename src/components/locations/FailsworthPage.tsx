@@ -13,10 +13,9 @@ import {
   ShieldCheck,
   ChevronDown,
   Zap,
-  Truck,
-} from "lucide-react";
+  } from "lucide-react";
 import ScrollDeck from "./ScrollDeck";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -483,30 +482,7 @@ export default function FailsworthPage() {
                 <span>Active Response Zone: 100% Failsworth Coverage</span>
               </div>
             </div>
-            <div className="relative w-full h-80 bg-primary rounded-xl overflow-hidden shadow-inner flex items-center justify-center">
-              <svg className="absolute inset-0 w-full h-full opacity-40" preserveAspectRatio="none" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,200 Q400,180 800,200" fill="none" stroke="var(--color-gray-400, #9ca3af)" strokeWidth="6" />
-                <path d="M150,0 Q300,220 450,400" fill="none" stroke="var(--color-gray-400, #9ca3af)" strokeWidth="4" />
-                <path d="M550,0 Q500,180 650,400" fill="none" stroke="var(--color-gray-400, #9ca3af)" strokeWidth="4" />
-                <path d="M100,50 Q400,20 700,120 Q650,380 200,350 Z" fill="none" stroke="var(--color-secondary)" strokeDasharray="8 6" strokeWidth="3" />
-                <line stroke="var(--color-primary-light)" strokeWidth="2" x1="200" x2="600" y1="100" y2="300" />
-                <line stroke="var(--color-primary-light)" strokeWidth="2" x1="300" x2="500" y1="350" y2="50" />
-                <line stroke="var(--color-primary-light)" strokeWidth="2" x1="50" x2="750" y1="280" y2="260" />
-              </svg>
-              <div className="relative z-10 flex flex-col items-center text-center p-4">
-                <div className="relative flex items-center justify-center">
-                  <div className="absolute w-44 h-44 rounded-full bg-secondary/15 animate-ping" />
-                  <div className="absolute w-32 h-32 rounded-full bg-secondary/25" />
-                  <div className="w-16 h-16 rounded-full bg-secondary text-primary flex items-center justify-center shadow-xl">
-                    <Truck className="h-8 w-8" />
-                  </div>
-                </div>
-                <div className="mt-3 bg-primary/90 backdrop-blur-md px-4 py-2 rounded-lg text-white shadow-lg border border-white/10">
-                  <div className="text-lg font-bold text-secondary">FAILSWORTH (M35)</div>
-                  <div className="text-[11px] font-bold uppercase tracking-[0.06em] text-white/70">A62 Corridor • M60 J22 • Daisy Nook</div>
-                </div>
-              </div>
-            </div>
+            <LocationMapEmbed areaLabel="Failsworth" />
           </div>
         </div>
       </section>
@@ -540,7 +516,6 @@ export default function FailsworthPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Failsworth" />
     </main>
   );
 }

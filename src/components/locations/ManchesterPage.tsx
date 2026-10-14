@@ -14,7 +14,7 @@ import {
   Search,
   Zap,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -403,19 +403,7 @@ export default function ManchesterPage() {
               </p>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative w-full h-80 rounded-xl overflow-hidden shadow-inner bg-primary">
-                <Image
-                  src="/gallery-home-callout.webp"
-                  alt="Direct Tyre Solutions coverage across Greater Manchester"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover opacity-70"
-                />
-                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
-                  <span className="h-3 w-3 rounded-full bg-secondary animate-ping" />
-                  <span className="text-[11px] font-bold uppercase text-primary-dark">Manchester Zone • Rapid Dispatch</span>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Manchester" />
             </div>
           </div>
         </div>
@@ -451,7 +439,6 @@ export default function ManchesterPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Manchester" />
     </main>
   );
 }

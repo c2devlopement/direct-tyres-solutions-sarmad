@@ -12,7 +12,7 @@ import {
   Unlock,
   Truck,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -351,28 +351,7 @@ export default function MostonPage() {
                 <p className="text-base text-gray-300">Live mobile units monitoring Lightbowne Road, St Mary&rsquo;s Road, and the M60 outer ring roads.</p>
               </div>
             </div>
-            <div className="relative w-full h-80 rounded-xl overflow-hidden bg-primary flex items-center justify-center">
-              <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <div className="w-64 h-64 rounded-full border-2 border-dashed border-secondary/40 animate-spin" style={{ animationDuration: "40s" }} />
-                <div className="absolute flex flex-col items-center">
-                  <span className="relative flex h-4 w-4">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75" />
-                    <span className="relative inline-flex rounded-full h-4 w-4 bg-secondary" />
-                  </span>
-                  <div className="mt-1 px-2 py-0.5 rounded bg-primary text-white text-[11px] font-bold uppercase shadow-md border border-white/20">
-                    Moston Centre
-                  </div>
-                </div>
-                <div className="absolute top-12 left-1/3 flex flex-col items-center">
-                  <div className="w-2.5 h-2.5 rounded-full bg-secondary" />
-                  <div className="mt-1 px-2 py-0.5 rounded bg-primary text-white text-[11px] font-bold uppercase opacity-80">Broadhurst Park</div>
-                </div>
-                <div className="absolute bottom-12 right-1/3 flex flex-col items-center">
-                  <div className="w-2.5 h-2.5 rounded-full bg-secondary/15" />
-                  <div className="mt-1 px-2 py-0.5 rounded bg-primary text-white text-[11px] font-bold uppercase opacity-80">Kenyon Lane</div>
-                </div>
-              </div>
-            </div>
+            <LocationMapEmbed areaLabel="Moston" />
           </div>
         </div>
       </section>
@@ -410,7 +389,6 @@ export default function MostonPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Moston" />
     </main>
   );
 }

@@ -10,7 +10,7 @@ import {
   Search,
   Radar,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -367,24 +367,7 @@ export default function RochdalePage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl relative bg-white/10 flex items-center justify-center">
-                <Image src="/gallery-onsite-wheel-fitting.webp" alt="Rochdale, Greater Manchester, UK service area" fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-cover" />
-                <div className="absolute inset-0 bg-primary/30" />
-                <div className="relative flex items-center justify-center pointer-events-none">
-                  <div className="absolute w-64 h-64 rounded-full bg-secondary/10 border-2 border-dashed border-secondary animate-pulse" />
-                  <div className="relative z-10 px-4 py-2 rounded-xl bg-primary text-white shadow-2xl flex items-center gap-2">
-                    <MapPin className="h-5 w-5 text-secondary" />
-                    <div className="text-left">
-                      <span className="text-[11px] uppercase text-secondary-hover block">Active Hub</span>
-                      <span className="text-sm font-bold">Rochdale (OL11/OL16)</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute bottom-4 left-4 bg-primary-dark/90 backdrop-blur-md text-white px-3.5 py-1.5 rounded-full text-xs flex items-center gap-2 shadow-lg">
-                  <span className="h-2 w-2 rounded-full bg-secondary animate-ping" />
-                  <span>12 Mobile Units Across Greater Manchester Today</span>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Rochdale" className="h-96" />
             </div>
           </div>
         </div>
@@ -422,7 +405,6 @@ export default function RochdalePage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Rochdale" />
     </main>
   );
 }

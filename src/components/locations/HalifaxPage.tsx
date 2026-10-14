@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, CreditCard, Headphones, MapPin, MessageCircle, PhoneCall, ShieldCheck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HalifaxPage() {
   return (
@@ -458,6 +459,7 @@ export default function HalifaxPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Halifax" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowUpRight, CheckCircle2, Clock, HelpCircle, KeyRound, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WythenshawePage() {
   return (
@@ -546,6 +547,7 @@ export default function WythenshawePage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Wythenshawe" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Clock, CreditCard, HelpCircle, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BurnleyPage() {
   return (
@@ -444,6 +445,7 @@ export default function BurnleyPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Burnley" />
     </main>
   );
 }

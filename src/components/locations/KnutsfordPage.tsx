@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, Clock, CreditCard, Gauge, HelpCircle, MapPin, MessageCircle, Navigation, PhoneCall, Route, Shield, ShieldCheck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function KnutsfordPage() {
   return (
@@ -448,6 +449,7 @@ export default function KnutsfordPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Knutsford" />
     </main>
   );
 }

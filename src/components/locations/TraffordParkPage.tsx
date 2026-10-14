@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Award, CreditCard, Gavel, HelpCircle, History, PhoneCall, Receipt, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function TraffordParkPage() {
   return (
@@ -398,6 +399,7 @@ export default function TraffordParkPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Trafford Park" />
     </main>
   );
 }

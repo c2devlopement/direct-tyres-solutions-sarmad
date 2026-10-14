@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, CheckCircle2, CreditCard, Flame, MapPin, MessageCircle, Mountain, Navigation, PhoneCall, Route, ShieldCheck, Snowflake, Unlock, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function DarwenPage() {
   return (
@@ -425,6 +426,7 @@ export default function DarwenPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Darwen" />
     </main>
   );
 }

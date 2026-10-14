@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronRight, Clock, Headphones, HelpCircle, List, MessageCircle, Navigation, PhoneCall, Route, Search, ShieldCheck, Truck, Warehouse, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function NantwichPage() {
   return (
@@ -537,6 +538,7 @@ export default function NantwichPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Nantwich" />
     </main>
   );
 }

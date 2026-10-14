@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Building2, ChevronDown, HelpCircle, Map, MapPin, MessageCircle, PhoneCall, Route, Siren, TrafficCone, Truck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function DukinfieldPage() {
   return (
@@ -467,6 +468,7 @@ export default function DukinfieldPage() {
       </div>
       </section>
       {/* Interactive Accordion Handler Script */}
+      <LocationMap areaLabel="Dukinfield" />
     </main>
   );
 }

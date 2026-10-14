@@ -13,6 +13,7 @@ import {
   Truck,
   Search,
 } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -475,6 +476,7 @@ export default function BlackleyPage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Blackley" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Clock, CreditCard, MapPin, MessageCircle, Navigation, PhoneCall, Route, Shield, ShieldCheck, Timer, Truck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function EcclesPage() {
   return (
@@ -457,6 +458,7 @@ export default function EcclesPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Eccles" />
     </main>
   );
 }

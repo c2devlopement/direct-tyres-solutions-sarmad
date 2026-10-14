@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Baby, Briefcase, CheckCircle2, ChevronDown, Clock, Disc, Headphones, Home, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HandforthPage() {
   return (
@@ -398,6 +399,7 @@ export default function HandforthPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Handforth" />
     </main>
   );
 }

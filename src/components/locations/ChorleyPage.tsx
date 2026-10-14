@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ChevronRight, Clock, HelpCircle, Info, MapPin, MessageCircle, PhoneCall, Route, Shield, ShieldCheck, Timer, Truck, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function ChorleyPage() {
   return (
@@ -518,6 +519,7 @@ export default function ChorleyPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Chorley" />
     </main>
   );
 }

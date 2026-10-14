@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronDown, MapPin, MessageCircle, PhoneCall, Truck, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BlackburnPage() {
   return (
@@ -410,6 +411,7 @@ export default function BlackburnPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Blackburn" />
     </main>
   );
 }

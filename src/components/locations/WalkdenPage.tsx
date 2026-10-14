@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Disc, Home, PhoneCall, Route, ShieldCheck, Truck, Unlock, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WalkdenPage() {
   return (
@@ -225,6 +226,7 @@ export default function WalkdenPage() {
       </div>
       </div>
       </div>
+      <LocationMap areaLabel="Walkden" />
     </main>
   );
 }

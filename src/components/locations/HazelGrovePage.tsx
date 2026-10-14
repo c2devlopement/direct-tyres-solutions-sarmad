@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, ChevronDown, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HazelGrovePage() {
   return (
@@ -364,6 +365,7 @@ export default function HazelGrovePage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Hazel Grove" />
     </main>
   );
 }

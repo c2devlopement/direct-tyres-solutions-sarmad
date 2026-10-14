@@ -1,4 +1,5 @@
 import { Car, CreditCard, Gavel, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, TrafficCone, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function AshtonUnderLynePage() {
   return (
@@ -373,6 +374,7 @@ export default function AshtonUnderLynePage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Ashton-under-Lyne" />
     </main>
   );
 }

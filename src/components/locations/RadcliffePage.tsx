@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronRight, CreditCard, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, Truck, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function RadcliffePage() {
   return (
@@ -497,6 +498,7 @@ export default function RadcliffePage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Radcliffe" />
     </main>
   );
 }

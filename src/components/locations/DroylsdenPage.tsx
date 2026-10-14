@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Check, Clock, Disc, HelpCircle, Home, KeyRound, MapPin, MessageCircle, PhoneCall, RefreshCw, Route, ShieldCheck, Signpost, Timer, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function DroylsdenPage() {
   return (
@@ -578,6 +579,7 @@ export default function DroylsdenPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Droylsden" />
     </main>
   );
 }

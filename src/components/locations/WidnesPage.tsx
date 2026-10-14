@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Clock, Gauge, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Star, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WidnesPage() {
   return (
@@ -438,6 +439,7 @@ export default function WidnesPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Widnes" />
     </main>
   );
 }

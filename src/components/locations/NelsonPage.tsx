@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, CheckCircle2, ChevronDown, Home, KeyRound, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Siren, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function NelsonPage() {
   return (
@@ -466,6 +467,7 @@ export default function NelsonPage() {
       </div>
       </section>
       {/* Interactive Accordion Script */}
+      <LocationMap areaLabel="Nelson" />
     </main>
   );
 }

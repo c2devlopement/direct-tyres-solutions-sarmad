@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, Check, CheckCircle2, ChevronDown, Disc, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function ColnePage() {
   return (
@@ -486,6 +487,7 @@ export default function ColnePage() {
       {/* Interactive Accordion Handler */}
       
       </div>
+      <LocationMap areaLabel="Colne" />
     </main>
   );
 }

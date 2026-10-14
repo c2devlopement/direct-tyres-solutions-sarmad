@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, Check, CheckCircle2, ChevronDown, KeyRound, MessageCircle, Navigation, PhoneCall, Shield, ShieldCheck, Timer, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BredburyPage() {
   return (
@@ -408,6 +409,7 @@ export default function BredburyPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Bredbury" />
     </main>
   );
 }

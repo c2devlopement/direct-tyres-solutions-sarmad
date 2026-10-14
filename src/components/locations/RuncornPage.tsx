@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronDown, Clock, MapPin, MessageCircle, PhoneCall, ShieldCheck, TrafficCone, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function RuncornPage() {
   return (
@@ -380,6 +381,7 @@ export default function RuncornPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Runcorn" />
     </main>
   );
 }

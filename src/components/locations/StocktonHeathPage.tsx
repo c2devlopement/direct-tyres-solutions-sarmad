@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, Car, CheckCircle2, ChevronDown, Home, KeyRound, MessageCircle, Navigation, PhoneCall, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function StocktonHeathPage() {
   return (
@@ -517,6 +518,7 @@ export default function StocktonHeathPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Stockton Heath" />
     </main>
   );
 }

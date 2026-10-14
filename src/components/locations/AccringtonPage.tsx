@@ -1,4 +1,5 @@
 import { ArrowRight, Car, ChevronDown, CreditCard, FileImage, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, PhoneForwarded, Route, SearchCheck, ShieldCheck, Truck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function AccringtonPage() {
   return (
@@ -422,6 +423,7 @@ export default function AccringtonPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Accrington" />
     </main>
   );
 }

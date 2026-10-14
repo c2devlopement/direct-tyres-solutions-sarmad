@@ -15,6 +15,7 @@ import {
   Radar,
   Navigation,
 } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -427,6 +428,7 @@ export default function CheethamHillPage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Cheetham Hill" />
     </main>
   );
 }

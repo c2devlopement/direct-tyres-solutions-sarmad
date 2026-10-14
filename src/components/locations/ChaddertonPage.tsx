@@ -14,6 +14,7 @@ import {
   MapPin,
 } from "lucide-react";
 import ScrollDeck from "./ScrollDeck";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -519,6 +520,7 @@ export default function ChaddertonPage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Chadderton" />
     </main>
   );
 }

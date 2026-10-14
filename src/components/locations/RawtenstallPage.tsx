@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Check, Clock, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Truck, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function RawtenstallPage() {
   return (
@@ -447,6 +448,7 @@ export default function RawtenstallPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Rawtenstall" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, Car, Clock, CreditCard, Disc, Gauge, KeyRound, MessageCircle, Moon, Package, PhoneCall, Route, Search, Shield, ShieldCheck, SlidersHorizontal, Timer, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WilmslowPage() {
   return (
@@ -491,6 +492,7 @@ export default function WilmslowPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Wilmslow" />
     </main>
   );
 }

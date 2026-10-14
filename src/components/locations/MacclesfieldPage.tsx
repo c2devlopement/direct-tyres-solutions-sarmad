@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, ChevronDown, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MacclesfieldPage() {
   return (
@@ -364,6 +365,7 @@ export default function MacclesfieldPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Macclesfield" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, CircleDot, Clock, Disc, Gauge, HardHat, HelpCircle, MapPin, MessageCircle, PhoneCall, ShieldCheck, Timer, Truck, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function PrestonPage() {
   return (
@@ -467,6 +468,7 @@ export default function PrestonPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Preston" />
     </main>
   );
 }

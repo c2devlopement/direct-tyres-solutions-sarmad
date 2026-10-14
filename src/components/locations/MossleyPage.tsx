@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Check, MessageCircle, PhoneCall, ShieldCheck, Timer } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MossleyPage() {
   return (
@@ -433,6 +434,7 @@ export default function MossleyPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Mossley" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, ChevronDown, Clock, MapPin, MessageCircle, Moon, Navigation, PhoneCall, Route, ShieldCheck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function RamsbottomPage() {
   return (
@@ -436,6 +437,7 @@ export default function RamsbottomPage() {
             </p>
       </div>
       </section>
+      <LocationMap areaLabel="Ramsbottom" />
     </main>
   );
 }

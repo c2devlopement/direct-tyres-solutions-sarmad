@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, BellRing, Car, CheckCircle2, ChevronDown, ChevronRight, Clock, Home, MapPin, PhoneCall, ShieldCheck, Star, Timer, Truck, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function AlderleyEdgePage() {
   return (
@@ -556,6 +557,7 @@ export default function AlderleyEdgePage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Alderley Edge" />
     </main>
   );
 }

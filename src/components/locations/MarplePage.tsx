@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, Building2, CheckCircle2, Clock, MapPin, MessageCircle, PhoneCall, Route, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MarplePage() {
   return (
@@ -357,6 +358,7 @@ export default function MarplePage() {
             </p>
       </div>
       </section>
+      <LocationMap areaLabel="Marple" />
     </main>
   );
 }

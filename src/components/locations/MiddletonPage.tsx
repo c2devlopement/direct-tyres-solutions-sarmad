@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { AlertTriangle, CheckCircle2, ChevronDown, Disc, Info, MessageCircle, Navigation, PhoneCall, ShieldCheck, Timer, Truck, Wrench, Zap } from "lucide-react";
+import { AlertTriangle, CheckCircle2, ChevronDown, Disc, Info, MessageCircle, PhoneCall, ShieldCheck, Timer, Truck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function MiddletonPage() {
   return (
@@ -177,87 +178,9 @@ export default function MiddletonPage() {
       <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white font-black mt-2">Middleton Network &amp; Arterial Routes</h2>
       <p className="text-[15px] leading-[24px] text-gray-300 mt-2">Stationed for direct access to Middleton, North Manchester corridors, and surrounding towns.</p>
       </div>
-      {/* Network Graphic */}
+      {/* Local area map */}
       <div className="relative bg-primary-dark/80 rounded-2xl p-8 sm:p-12 shadow-2xl overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
-      {/* West & North Nodes */}
-      <div className="space-y-4">
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">North-West Node</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Heywood</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">A6046 Corridor • ~12 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">North Node</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Rochdale</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">A664 Link • ~15 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">West Node</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Prestwich</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">M60 J17-J19 • ~14 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      </div>
-      {/* Central Hub: Middleton */}
-      <div className="my-6 md:my-0 flex flex-col items-center justify-center">
-      <div className="w-full bg-gradient-to-b from-secondary to-secondary-hover p-1 rounded-2xl shadow-2xl">
-      <div className="bg-primary-dark rounded-xl p-8 text-center flex flex-col items-center">
-      <span className="inline-block px-3 py-1 bg-secondary text-primary rounded-full text-[11px] leading-[14px] tracking-[0.06em] font-bold uppercase tracking-widest font-black mb-3">
-                        PRIMARY HUB
-                      </span>
-      <h3 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white font-black">
-                        Middleton
-                      </h3>
-      <p className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-secondary font-semibold mt-1">
-                        M60 J19 • M62 • A664
-                      </p>
-      <p className="text-[13px] leading-[18px] text-gray-300 mt-3">
-                        Dedicated local response vehicle patrol covering Alkrington, Langley, Rhodes, and Middleton Junction.
-                      </p>
-      <a className="mt-5 inline-flex items-center gap-2 bg-secondary text-primary px-6 py-2.5 rounded-full text-[14px] leading-[18px] tracking-[0.02em] font-semibold font-bold shadow-md hover:scale-105 transition-transform" href="tel:07955266077">
-      <PhoneCall className="h-[14px] w-[14px]" fill="currentColor" strokeWidth={0} />
-                        Dispatch Rapid Van
-                      </a>
-      </div>
-      </div>
-      </div>
-      {/* East & South Nodes */}
-      <div className="space-y-4">
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">East Node</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Chadderton</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">A663 Broadway • ~10 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">South Node</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Blackley</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Manchester Old Rd • ~8 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      <div className="bg-primary/60 p-4 rounded-xl shadow-md flex items-center justify-between">
-      <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase">Industrial Zone</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Stakehill</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Logistics Park • ~7 Min</p>
-      </div>
-      <Navigation className="text-accent h-5 w-5" />
-      </div>
-      </div>
-      </div>
+      <LocationMapEmbed areaLabel="Middleton" />
       </div>
       </div>
       </section>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlarmClockCheck, Clock, Headphones, KeyRound, MapPin, MessageCircle, Moon, PhoneCall, ShieldCheck, ShoppingCart, TrafficCone, TrainFront, Truck, Unlock, Warehouse, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function CrewePage() {
   return (
@@ -219,56 +220,9 @@ export default function CrewePage() {
                 Continuous mobile coverage across Cheshire&apos;s central transport arteries and neighbouring communities.
               </p>
       </div>
-      {/* Network Visualization Hub */}
+      {/* Local area map */}
       <div className="p-8 lg:p-12 rounded-3xl bg-primary-dark shadow-2xl relative overflow-hidden">
-      {/* SVG Connected Arteries Background */}
-      <div className="absolute inset-0 pointer-events-none opacity-20 hidden md:block">
-      <svg className="w-full h-full" fill="none" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
-      <line className="text-gray-400" stroke="currentColor" stroke-dasharray="6 6" strokeWidth="2" x1="500" x2="200" y1="250" y2="120"></line>
-      <line className="text-gray-400" stroke="currentColor" stroke-dasharray="6 6" strokeWidth="2" x1="500" x2="800" y1="250" y2="120"></line>
-      <line className="text-gray-400" stroke="currentColor" stroke-dasharray="6 6" strokeWidth="2" x1="500" x2="160" y1="250" y2="380"></line>
-      <line className="text-gray-400" stroke="currentColor" stroke-dasharray="6 6" strokeWidth="2" x1="500" x2="500" y1="250" y2="440"></line>
-      <line className="text-gray-400" stroke="currentColor" stroke-dasharray="6 6" strokeWidth="2" x1="500" x2="840" y1="250" y2="380"></line>
-      </svg>
-      </div>
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 items-center">
-      {/* Node: Nantwich (West) */}
-      <div className="p-5 rounded-2xl bg-primary/60 text-center flex flex-col items-center">
-      <span className="inline-flex px-2.5 py-1 rounded-full bg-accent/20 text-gray-300 text-[11px] leading-[14px] tracking-[0.06em] font-bold font-semibold mb-2">A534 West</span>
-      <span className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Nantwich</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 mt-1">10-15 Min ETA</span>
-      </div>
-      {/* Node: Sandbach (North-East) */}
-      <div className="p-5 rounded-2xl bg-primary/60 text-center flex flex-col items-center">
-      <span className="inline-flex px-2.5 py-1 rounded-full bg-accent/20 text-gray-300 text-[11px] leading-[14px] tracking-[0.06em] font-bold font-semibold mb-2">A534 East</span>
-      <span className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Sandbach</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 mt-1">15-20 Min ETA</span>
-      </div>
-      {/* Central Hub: Crewe Core */}
-      <div className="p-8 rounded-3xl bg-accent/10 shadow-2xl flex flex-col items-center text-center md:scale-105">
-      <div className="w-14 h-14 rounded-full bg-secondary text-primary flex items-center justify-center mb-3">
-      <MapPin className="h-[30px] w-[30px] font-black" />
-      </div>
-      <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold uppercase tracking-widest text-secondary font-black">Central Depot Hub</span>
-      <span className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white font-black mt-1">CREWE</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 mt-1">Grand Junction • Rail Station • Weston Rd</span>
-      <div className="inline-flex items-center gap-1.5 mt-3 text-accent text-[11px] leading-[14px] tracking-[0.06em] font-bold">
-      <span className="w-2 h-2 rounded-full bg-accent"></span> Immediate Dispatch
-                  </div>
-      </div>
-      {/* Node: Middlewich / Winsford (North) */}
-      <div className="p-5 rounded-2xl bg-primary/60 text-center flex flex-col items-center">
-      <span className="inline-flex px-2.5 py-1 rounded-full bg-accent/20 text-gray-300 text-[11px] leading-[14px] tracking-[0.06em] font-bold font-semibold mb-2">A530 North</span>
-      <span className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Winsford &amp; Middlewich</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 mt-1">20-25 Min ETA</span>
-      </div>
-      {/* Node: Alsager / M6 (South-East) */}
-      <div className="p-5 rounded-2xl bg-primary/60 text-center flex flex-col items-center">
-      <span className="inline-flex px-2.5 py-1 rounded-full bg-accent/20 text-gray-300 text-[11px] leading-[14px] tracking-[0.06em] font-bold font-semibold mb-2">A500 / M6 J16</span>
-      <span className="font-heading text-[20px] leading-[26px] font-bold text-white font-bold">Alsager</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 mt-1">12-18 Min ETA</span>
-      </div>
-      </div>
+      <LocationMapEmbed areaLabel="Crewe" />
       {/* Road Highlight Pills Below */}
       <div className="mt-10 pt-8 flex flex-wrap items-center justify-center gap-3">
       <span className="px-4 py-2 rounded-xl bg-primary/60 font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">

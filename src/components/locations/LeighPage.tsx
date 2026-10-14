@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { AlertTriangle, ChevronDown, CircleDot, Clock, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Wrench, Zap } from "lucide-react";
+import { AlertTriangle, ChevronDown, Clock, KeyRound, MapPin, MessageCircle, PhoneCall, ShieldCheck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function LeighPage() {
   return (
@@ -203,81 +204,9 @@ export default function LeighPage() {
                 Direct dispatch positioned immediately around key regional transit junctions for rapid interception.
               </p>
       </div>
-      {/* Network Graphic / Layout */}
+      {/* Local area map */}
       <div className="p-space-lg rounded-2xl bg-primary-dark relative overflow-hidden">
-      {/* Center Hub + Spokes Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md items-center">
-      {/* Node Column Left */}
-      <div className="flex flex-col gap-space-md">
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white block">Atherton</span>
-      <span className="text-[13px] leading-[18px] text-gray-400">Via A579 • 10-15 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">Tyldesley</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 block">Via A572 • 12-18 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">Wigan</span>
-      <span className="text-[13px] leading-[18px] text-gray-400 block">Via A577 / Ince • 20 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      </div>
-      {/* Central Core: LEIGH */}
-      <div className="p-space-lg rounded-2xl bg-primary/80 text-center flex flex-col items-center justify-center my-space-sm md:my-0 shadow-lg">
-      <div className="w-16 h-16 rounded-full bg-secondary text-primary flex items-center justify-center mb-space-sm">
-      <CircleDot className="text-[36px] leading-[42px] tracking-[-0.01em] font-black h-5 w-5" fill="currentColor" strokeWidth={0} />
-      </div>
-      <h3 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white">LEIGH</h3>
-      <p className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-secondary uppercase tracking-wider mb-space-sm">Central Hub &amp; Depot Unit</p>
-      <div className="text-left w-full space-y-1.5 pt-space-sm text-[13px] leading-[18px] text-white">
-      <div className="flex items-center gap-2">
-      <Navigation className="text-secondary h-[14px] w-[14px]" />
-      <span><strong>A580 (East Lancs):</strong> Constant Patrol</span>
-      </div>
-      <div className="flex items-center gap-2">
-      <Navigation className="text-secondary h-[14px] w-[14px]" />
-      <span><strong>A579 / A572:</strong> Instant Surface Access</span>
-      </div>
-      <div className="flex items-center gap-2">
-      <Navigation className="text-secondary h-[14px] w-[14px]" />
-      <span><strong>M60 / M61 Interchanges:</strong> 15-20 Min</span>
-      </div>
-      </div>
-      </div>
-      {/* Node Column Right */}
-      <div className="flex flex-col gap-space-md">
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white block">Walkden</span>
-      <span className="text-[13px] leading-[18px] text-gray-400">Via A580 East • 15-20 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white block">Culcheth</span>
-      <span className="text-[13px] leading-[18px] text-gray-400">Via Warrington Rd • 12-15 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      <div className="p-space-md rounded-xl bg-primary/60 flex items-center justify-between">
-      <div>
-      <span className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white block">Lowton &amp; Golborne</span>
-      <span className="text-[13px] leading-[18px] text-gray-400">Via Stone Cross • 10 Min</span>
-      </div>
-      <span className="w-3 h-3 rounded-full bg-accent"></span>
-      </div>
-      </div>
-      </div>
+      <LocationMapEmbed areaLabel="Leigh" />
       </div>
       </div>
       </section>

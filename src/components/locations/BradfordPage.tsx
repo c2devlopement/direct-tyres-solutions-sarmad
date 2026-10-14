@@ -1,5 +1,6 @@
-import { ArrowRight, Building2, Car, CreditCard, Disc, Gauge, MessageCircle, Navigation, PhoneCall, Search, TrafficCone, Wrench } from "lucide-react";
+import { ArrowRight, Building2, Car, CreditCard, Gauge, MessageCircle, Navigation, PhoneCall, Search, TrafficCone, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function BradfordPage() {
   return (
@@ -178,50 +179,8 @@ export default function BradfordPage() {
       <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white font-extrabold">STRATEGIC CORRIDORS &amp; SURROUNDING ZONES</h2>
       <p className="text-[15px] leading-[24px] text-gray-400">We maintain rapid response units stationed along pivotal interchange points across West Yorkshire.</p>
       </div>
-      {/* Tactical Visual Container with Interactive Nodes */}
-      <div className="relative w-full h-[450px] rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center p-8 bg-primary/60">
-      {/* Interactive stylized network background */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-primary-dark via-primary/80 to-primary-dark opacity-90"></div>
-      {/* Subtle network grid representation */}
-      <div className="absolute inset-0 opacity-10 flex items-center justify-center pointer-events-none">
-      <svg className="w-full h-full text-gray-400" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <circle cx="50%" cy="50%" r="180" stroke-dasharray="6,6"></circle>
-      <circle cx="50%" cy="50%" r="280" stroke-dasharray="8,8"></circle>
-      <line x1="15%" x2="85%" y1="20%" y2="80%"></line>
-      <line x1="85%" x2="15%" y1="20%" y2="80%"></line>
-      </svg>
-      </div>
-      {/* Central Hub Node */}
-      <div className="relative z-10 flex flex-col items-center">
-      <div className="w-20 h-20 rounded-full bg-secondary text-primary flex items-center justify-center shadow-2xl animate-pulse">
-      <Disc className="h-9 w-9" fill="currentColor" strokeWidth={0} />
-      </div>
-      <span className="mt-3 px-4 py-1.5 rounded-full bg-primary/90 backdrop-blur-md text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider shadow-lg">Bradford Central</span>
-      </div>
-      {/* Floating Sector Tags */}
-      <div className="absolute top-10 left-8 md:left-24 px-4 py-2 rounded-xl bg-primary-dark/85 backdrop-blur-md shadow-xl flex items-center gap-2">
-      <span className="w-2 h-2 rounded-full bg-accent"></span>
-      <span className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-white">M606 / M62 Junction</span>
-      </div>
-      <div className="absolute top-12 right-8 md:right-24 px-4 py-2 rounded-xl bg-primary-dark/85 backdrop-blur-md shadow-xl flex items-center gap-2">
-      <span className="w-2 h-2 rounded-full bg-secondary"></span>
-      <span className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-white">Leeds A647 Express</span>
-      </div>
-      <div className="absolute bottom-12 left-10 md:left-32 px-4 py-2 rounded-xl bg-primary-dark/85 backdrop-blur-md shadow-xl flex items-center gap-2">
-      <span className="w-2 h-2 rounded-full bg-accent"></span>
-      <span className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-white">Halifax &amp; Brighouse</span>
-      </div>
-      <div className="absolute bottom-10 right-12 md:right-36 px-4 py-2 rounded-xl bg-primary-dark/85 backdrop-blur-md shadow-xl flex items-center gap-2">
-      <span className="w-2 h-2 rounded-full bg-secondary"></span>
-      <span className="text-[14px] leading-[18px] tracking-[0.02em] font-semibold text-white">Shipley &amp; Aire Valley</span>
-      </div>
-      <div className="absolute top-1/2 left-6 transform -translate-y-1/2 px-3 py-1.5 rounded-lg bg-primary/70 backdrop-blur-md hidden sm:flex items-center gap-2">
-      <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400">A6177 Ring Road</span>
-      </div>
-      <div className="absolute top-1/2 right-6 transform -translate-y-1/2 px-3 py-1.5 rounded-lg bg-primary/70 backdrop-blur-md hidden sm:flex items-center gap-2">
-      <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400">Cleckheaton Bypass</span>
-      </div>
-      </div>
+      {/* Local area map */}
+      <LocationMapEmbed areaLabel="Bradford" />
       </div>
       </section>
       {/* HOW IT WORKS: 5-STEP GLASS PANEL STRIP */}

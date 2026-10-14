@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { AlertTriangle, ArrowRight, Building2, Car, CheckCircle2, ChevronDown, Clock, CornerUpRight, CreditCard, Gauge, KeyRound, Navigation, PhoneCall, Route, ShieldCheck, Signpost, Wrench } from "lucide-react";
+import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, Clock, CreditCard, Gauge, KeyRound, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function SwintonPage() {
   return (
@@ -208,73 +209,9 @@ export default function SwintonPage() {
                 Rapid van staging ensures swift access to principal motorways, arterial link roads, and neighboring boroughs across Salford and Greater Manchester.
               </p>
       </div>
-      {/* Stylized Network Diagram Card */}
+      {/* Local area map */}
       <div className="w-full p-8 lg:p-12 rounded-3xl bg-primary-dark/80 backdrop-blur-md relative overflow-hidden">
-      {/* Background subtle tech grid lines */}
-      <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#ffd700_1px,transparent_1px),linear-gradient(to_bottom,#ffd700_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-      <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-      {/* West & North Nodes */}
-      <div className="flex flex-col space-y-4">
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <Route className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">A580 East Lancs Road</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Direct link through Swinton &amp; Walkden</p>
-      </div>
-      </div>
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <Signpost className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">Walkden &amp; Worsley</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Under 15-minute dispatch radius</p>
-      </div>
-      </div>
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <CornerUpRight className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">M60 Junction 13 &amp; 14</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Immediate orbital motorway access</p>
-      </div>
-      </div>
-      </div>
-      {/* Central Core Node: SWINTON */}
-      <div className="flex flex-col items-center justify-center p-8 rounded-2xl bg-gradient-to-b from-primary to-primary-dark text-center shadow-xl">
-      <div className="w-16 h-16 rounded-full bg-secondary text-primary flex items-center justify-center mb-4 shadow-lg shadow-[#ffd700]/20">
-      <Navigation className="h-[30px] w-[30px] font-bold" />
-      </div>
-      <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-accent uppercase tracking-wider font-bold">Central Dispatch Hub</span>
-      <h3 className="font-heading text-[30px] leading-[38px] font-bold font-black text-white mt-1 mb-2">SWINTON</h3>
-      <p className="text-[13px] leading-[18px] text-gray-300 mb-4">Postcode District: M27</p>
-      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/30 text-xs font-semibold text-white">
-      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-      <span>2 Units Available On-Call</span>
-      </div>
-      </div>
-      {/* East & South Nodes */}
-      <div className="flex flex-col space-y-4">
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <Route className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">A6 Chorley Rd / Manchester Rd</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Continuous corridor into Salford</p>
-      </div>
-      </div>
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <Building2 className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">Pendlebury &amp; Salford</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Seamless metropolitan support</p>
-      </div>
-      </div>
-      <div className="p-4 rounded-xl bg-primary shadow-md flex items-center gap-3">
-      <Car className="text-secondary h-5 w-5" />
-      <div>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white font-bold">Eccles &amp; Monton</p>
-      <p className="text-[13px] leading-[18px] text-gray-400">Covering southern residential avenues</p>
-      </div>
-      </div>
-      </div>
-      </div>
+      <LocationMapEmbed areaLabel="Swinton" />
       </div>
       </div>
       </section>

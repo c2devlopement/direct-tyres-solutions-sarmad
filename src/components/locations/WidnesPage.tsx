@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Clock, Gauge, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Star, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function WidnesPage() {
   return (
@@ -372,17 +373,7 @@ export default function WidnesPage() {
       </div>
       {/* Mini Map / Coverage Card */}
       <div className="bg-primary/60 backdrop-blur-md p-space-md rounded-2xl shadow-sm">
-      <div className="w-full h-44 bg-cover bg-center rounded-xl overflow-hidden relative" data-location="Widnes, Greater Manchester, UK" style={{ backgroundImage: "url('/gallery-onsite-wheel-fitting.webp')" }}>
-      <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/80 via-transparent to-transparent flex items-end p-space-sm">
-      <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-white bg-primary-dark/90 px-2.5 py-1 rounded-md backdrop-blur-sm">
-                        Active Area: Widnes &amp; Trafford
-                      </span>
-      </div>
-      </div>
-      <div className="mt-space-sm px-1 flex justify-between items-center text-[13px] leading-[18px] text-gray-400">
-      <span>M62 (J9 &amp; J10) Covered</span>
-      <span className="text-gray-400 text-xs uppercase">Live GPS Units</span>
-      </div>
+      <LocationMapEmbed areaLabel="Widnes" />
       </div>
       {/* Direct WhatsApp Dispatch Box */}
       <div className="p-space-md rounded-2xl bg-accent/10 flex items-center justify-between">

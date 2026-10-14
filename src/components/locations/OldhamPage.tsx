@@ -13,11 +13,11 @@ import {
   ShieldCheck,
   Car,
   Home as HomeIcon,
-  Navigation,
   Zap,
   ChevronDown,
 } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -440,36 +440,7 @@ export default function OldhamPage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative rounded-2xl overflow-hidden bg-primary p-6 text-white min-h-[380px] flex flex-col justify-between shadow-xl">
-                <div className="relative z-10 flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="h-3 w-3 rounded-full bg-emerald-400 animate-ping" />
-                    <span className="text-[11px] font-bold uppercase tracking-[0.06em]">Live Patrol GPS Active</span>
-                  </div>
-                  <span className="text-[11px] font-bold text-secondary bg-white/10 px-2 py-1 rounded">Radius: 10 Miles</span>
-                </div>
-                <div className="relative z-10 my-8 flex flex-col items-center text-center">
-                  <div className="w-16 h-16 rounded-full bg-secondary text-primary flex items-center justify-center shadow-lg mb-2">
-                    <Navigation className="h-8 w-8" />
-                  </div>
-                  <div className="text-xl font-semibold">Oldham Central Dispatch Hub</div>
-                  <div className="text-sm text-gray-400">Covering OL1, OL2, OL3, OL4, OL8, OL9 &amp; A627(M) corridor</div>
-                </div>
-                <div className="relative z-10 grid grid-cols-2 sm:grid-cols-3 gap-2 pt-4 border-t border-white/10 text-center">
-                  <div>
-                    <div className="text-lg font-semibold text-secondary">24/7</div>
-                    <div className="text-[11px] font-bold uppercase text-gray-400">Availability</div>
-                  </div>
-                  <div>
-                    <div className="text-lg font-semibold text-secondary">20-35m</div>
-                    <div className="text-[11px] font-bold uppercase text-gray-400">Avg Arrival</div>
-                  </div>
-                  <div className="col-span-2 sm:col-span-1">
-                    <div className="text-lg font-semibold text-white">Zero</div>
-                    <div className="text-[11px] font-bold uppercase text-gray-400">Towing Needed</div>
-                  </div>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Oldham" />
             </div>
           </div>
         </div>

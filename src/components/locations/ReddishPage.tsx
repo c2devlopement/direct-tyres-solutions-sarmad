@@ -11,10 +11,8 @@ import {
   Gauge,
   Wrench,
   Unlock,
-  Navigation,
-  Radar,
-} from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+  } from "lucide-react";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -294,22 +292,7 @@ export default function ReddishPage() {
                 <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-wider">Live East Manchester GPS Matrix</span>
               </div>
               <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Rapid Dispatch Radius: Reddish &amp; Beyond</h2>
-              <div className="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden shadow-sm bg-primary flex items-center justify-center mt-2">
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-56 h-56 rounded-full border-2 border-dashed border-secondary/40 animate-spin" style={{ animationDuration: "40s" }} />
-                  <Radar className="absolute h-10 w-10 text-white/30" />
-                </div>
-                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur px-3 py-2 rounded-xl shadow-md flex items-center gap-3">
-                  <Navigation className="h-6 w-6 text-secondary-hover" />
-                  <div>
-                    <span className="block text-[11px] text-gray-600 uppercase">Coverage Corridor</span>
-                    <span className="text-sm font-bold text-primary-dark">5-Mile Primary Urgent Zone</span>
-                  </div>
-                </div>
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 px-3 py-1 rounded-md bg-primary border border-white/20 text-white text-[11px] font-bold uppercase shadow-md">
-                  Reddish Centre (SK5)
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Reddish" className="h-80 sm:h-96 mt-2" />
             </div>
             <div className="lg:col-span-5 flex flex-col gap-4">
               <div className="bg-primary/60 border border-white/10 p-6 rounded-2xl shadow-sm flex flex-col gap-4">
@@ -385,7 +368,6 @@ export default function ReddishPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Reddish" />
     </main>
   );
 }

@@ -9,10 +9,9 @@ import {
   Wrench,
   Unlock,
   Truck,
-  MapPin,
   ShieldCheck,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -451,29 +450,7 @@ export default function ShawPage() {
               </div>
             </div>
             <div className="lg:col-span-8 relative">
-              <div className="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden shadow-lg">
-                <Image
-                  src="/gallery-evening-home-visit.webp"
-                  alt="Direct Tyre Solutions coverage across Shaw and Crompton, Oldham"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-primary/20 pointer-events-none flex items-center justify-center">
-                  <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full border-2 border-secondary bg-secondary/10 flex items-center justify-center animate-pulse">
-                    <div className="w-8 h-8 rounded-full bg-secondary text-primary flex items-center justify-center shadow-lg">
-                      <MapPin className="h-[18px] w-[18px]" />
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-xl shadow-md flex items-center gap-2">
-                  <span className="relative flex h-3 w-3">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75" />
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-secondary" />
-                  </span>
-                  <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-primary-dark">Shaw Coverage Active</span>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Shaw" className="h-80 sm:h-96" />
             </div>
           </div>
         </div>
@@ -506,7 +483,6 @@ export default function ShawPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Shaw" />
     </main>
   );
 }

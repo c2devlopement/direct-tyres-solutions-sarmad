@@ -12,10 +12,9 @@ import {
   Gauge,
   Wrench,
   Unlock,
-  Compass,
   Mountain,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -356,16 +355,7 @@ export default function UppermillPage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="w-full h-80 md:h-96 rounded-xl shadow-md overflow-hidden relative bg-primary flex items-center justify-center">
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-64 h-64 rounded-full border-2 border-dashed border-secondary/40 animate-spin" style={{ animationDuration: "40s" }} />
-                  <Compass className="absolute h-10 w-10 text-white/30" />
-                </div>
-                <div className="absolute top-4 left-4 bg-primary text-white px-4 py-2 rounded-lg shadow font-semibold text-sm flex items-center gap-2 border border-white/10">
-                  <span className="w-2.5 h-2.5 rounded-full bg-secondary animate-ping" />
-                  <span>Live Uppermill Van: Standby OL3</span>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Uppermill" className="h-80 md:h-96" />
             </div>
           </div>
         </div>
@@ -400,7 +390,6 @@ export default function UppermillPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Uppermill" />
     </main>
   );
 }

@@ -8,7 +8,7 @@ import {
   ShieldCheck,
   Truck,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -337,28 +337,7 @@ export default function NewtonHeathPage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden bg-primary flex items-center justify-center">
-                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="w-64 h-64 rounded-full border-2 border-dashed border-secondary/40 animate-spin" style={{ animationDuration: "20s" }} />
-                </div>
-                <div className="relative z-10 flex flex-col items-center text-center">
-                  <div className="relative flex items-center justify-center mb-3">
-                    <span className="w-12 h-12 rounded-full bg-secondary/40 animate-ping absolute" />
-                    <div className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center shadow-lg text-primary">
-                      <Truck className="h-7 w-7" />
-                    </div>
-                  </div>
-                  <span className="px-3 py-1 rounded-full bg-white/10 text-secondary font-bold uppercase tracking-wider text-[11px] mb-1">
-                    Newton Heath Zone (M40)
-                  </span>
-                  <p className="text-[22px] leading-[28px] text-white font-bold">Live 20–35 Min Radius</p>
-                  <span className="text-sm text-secondary-hover max-w-xs mt-1">Technicians patrolling A62, Dean Lane, and Droylsden Road now.</span>
-                </div>
-                <div className="absolute top-4 left-4 px-3 py-1 rounded-lg bg-white/10 text-white text-[11px] uppercase">NW: Cheetham Hill</div>
-                <div className="absolute top-4 right-4 px-3 py-1 rounded-lg bg-white/10 text-white text-[11px] uppercase">NE: Moston &amp; Failsworth</div>
-                <div className="absolute bottom-4 left-4 px-3 py-1 rounded-lg bg-white/10 text-white text-[11px] uppercase">SW: Miles Platting</div>
-                <div className="absolute bottom-4 right-4 px-3 py-1 rounded-lg bg-white/10 text-white text-[11px] uppercase">SE: Droylsden</div>
-              </div>
+              <LocationMapEmbed areaLabel="Newton Heath" className="h-80 sm:h-96" />
             </div>
           </div>
         </div>
@@ -394,7 +373,6 @@ export default function NewtonHeathPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Newton Heath" />
     </main>
   );
 }

@@ -14,7 +14,7 @@ import {
   MapPin,
 } from "lucide-react";
 import ScrollDeck from "./ScrollDeck";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -469,23 +469,7 @@ export default function ChaddertonPage() {
               </div>
             </div>
             <div className="lg:col-span-7">
-              <div className="relative rounded-2xl overflow-hidden shadow-md bg-white/10 h-80 md:h-96">
-                <Image
-                  src="/gallery-home-callout.webp"
-                  alt="Direct Tyre Solutions coverage across Chadderton, Oldham"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 60vw"
-                  className="object-cover"
-                />
-                <div className="absolute bottom-4 left-4 right-4 md:right-auto md:w-80 bg-primary/95 backdrop-blur-md p-4 rounded-xl text-white shadow-xl">
-                  <div className="flex items-center justify-between pb-1">
-                    <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-secondary">GPS Radar Zone</span>
-                    <span className="text-xs font-bold text-secondary">24/7 ACTIVE</span>
-                  </div>
-                  <div className="text-lg font-semibold">Chadderton Central</div>
-                  <p className="text-sm text-gray-400 mt-1">Mobile units deployed across OL9 postcodes right now.</p>
-                </div>
-              </div>
+              <LocationMapEmbed areaLabel="Chadderton" className="h-80 md:h-96" />
             </div>
           </div>
         </div>
@@ -520,7 +504,6 @@ export default function ChaddertonPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Chadderton" />
     </main>
   );
 }

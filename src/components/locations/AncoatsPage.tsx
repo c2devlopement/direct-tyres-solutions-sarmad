@@ -15,7 +15,7 @@ import {
   Truck,
   Navigation,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -411,20 +411,7 @@ export default function AncoatsPage() {
                 </ul>
               </div>
               <div className="lg:col-span-7">
-                <div className="relative w-full h-80 rounded-xl overflow-hidden shadow-inner bg-white/10">
-                  <Image
-                    src="/gallery-evening-callout.webp"
-                    alt="Direct Tyre Solutions coverage across Ancoats, Manchester"
-                    fill
-                    sizes="(max-width: 1024px) 100vw, 60vw"
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-primary/20 pointer-events-none" />
-                  <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-4 py-2 rounded-lg shadow-md flex items-center gap-2">
-                    <span className="h-3 w-3 rounded-full bg-secondary animate-ping" />
-                    <span className="text-[11px] font-bold uppercase text-primary-dark">Ancoats Zone 1 • Rapid Dispatch</span>
-                  </div>
-                </div>
+                <LocationMapEmbed areaLabel="Ancoats" />
               </div>
             </div>
           </div>
@@ -465,7 +452,6 @@ export default function AncoatsPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Ancoats" />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, Gauge, MessageCircle, Mountain, Navigation, PhoneCall, Radar, ShieldCheck, Timer, Truck, Unlock, Wrench } from "lucide-react";
+import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, Gauge, MessageCircle, Mountain, PhoneCall, Radar, ShieldCheck, Timer, Truck, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function HaslingdenPage() {
   return (
@@ -254,97 +255,8 @@ export default function HaslingdenPage() {
       <span className="px-3 py-1 rounded-full bg-primary/60 text-gray-400">A676 Bolton Rd</span>
       </div>
       </div>
-      {/* Large Interactive Panoramic Visual with Live Pulsing Pins */}
-      <div className="relative w-full h-[520px] rounded-3xl overflow-hidden shadow-2xl bg-primary-dark">
-      <div aria-label="Map perspective of Rossendale, Haslingden, and connecting A-roads" className="w-full h-full bg-cover bg-center" data-alt="Expansive panoramic view over the Rossendale valley landscape around Haslingden Lancashire showing winding highway roads, rolling green and misty moors, dramatic twilight sky, cinematic road mapping aesthetic" role="img" style={{ backgroundImage: "url('/gallery-home-callout.webp')" }}>
-      </div>
-      {/* Dark Tint Scrim */}
-      <div className="absolute inset-0 bg-primary-dark/65"></div>
-      {/* Overlaid Tactical Grid Decorator */}
-      <svg className="absolute inset-0 w-full h-full opacity-15 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-      <pattern height="40" id="grid" patternUnits="userSpaceOnUse" width="40">
-      <path className="text-white" d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="1"></path>
-      </pattern>
-      </defs>
-      <rect fill="url(#grid)" height="100%" width="100%"></rect>
-      </svg>
-      {/* Pulsing Map Pins */}
-      {/* Center: Haslingden Hub */}
-      <div className="absolute top-[48%] left-[48%] -translate-x-1/2 -translate-y-1/2 z-20 group cursor-pointer">
-      <div className="relative flex items-center justify-center">
-      <span className="animate-ping absolute inline-flex h-12 w-12 rounded-full bg-secondary opacity-75"></span>
-      <span className="relative inline-flex rounded-full h-6 w-6 bg-secondary items-center justify-center text-primary font-bold text-xs shadow-lg">H</span>
-      </div>
-      <div className="mt-2 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg shadow-xl text-center">
-      <p className="font-heading text-xs text-secondary font-black">HASLINGDEN HUB</p>
-      <p className="text-[10px] text-white">Base Unit Standing By</p>
-      </div>
-      </div>
-      {/* Pin: Rawtenstall */}
-      <div className="absolute top-[32%] left-[68%] z-10">
-      <div className="flex items-center gap-2 bg-primary/60 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/5 hover:border-secondary transition-all">
-      <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
-      <span className="text-xs text-white">Rawtenstall</span>
-      <span className="text-[10px] text-secondary font-mono">6 min</span>
-      </div>
-      </div>
-      {/* Pin: Accrington */}
-      <div className="absolute top-[22%] left-[28%] z-10">
-      <div className="flex items-center gap-2 bg-primary/60 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/5 hover:border-secondary transition-all">
-      <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
-      <span className="text-xs text-white">Accrington</span>
-      <span className="text-[10px] text-secondary font-mono">11 min</span>
-      </div>
-      </div>
-      {/* Pin: Helmshore */}
-      <div className="absolute top-[68%] left-[40%] z-10">
-      <div className="flex items-center gap-2 bg-primary/60 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/5 hover:border-secondary transition-all">
-      <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
-      <span className="text-xs text-white">Helmshore</span>
-      <span className="text-[10px] text-secondary font-mono">4 min</span>
-      </div>
-      </div>
-      {/* Pin: Ramsbottom */}
-      <div className="absolute top-[80%] left-[58%] z-10">
-      <div className="flex items-center gap-2 bg-primary/60 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/5 hover:border-secondary transition-all">
-      <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
-      <span className="text-xs text-white">Ramsbottom</span>
-      <span className="text-[10px] text-secondary font-mono">9 min</span>
-      </div>
-      </div>
-      {/* Pin: Edenfield */}
-      <div className="absolute top-[65%] left-[72%] z-10">
-      <div className="flex items-center gap-2 bg-primary/60 backdrop-blur-md px-3 py-1.5 rounded-full shadow-lg border border-white/5 hover:border-secondary transition-all">
-      <span className="w-2.5 h-2.5 rounded-full bg-accent"></span>
-      <span className="text-xs text-white">Edenfield</span>
-      <span className="text-[10px] text-secondary font-mono">7 min</span>
-      </div>
-      </div>
-      {/* Floating Roadway Indicators */}
-      <div className="absolute bottom-6 left-6 right-6 flex flex-wrap justify-between items-center gap-4 bg-primary/80 backdrop-blur-lg p-4 rounded-2xl">
-      <div className="flex items-center gap-6">
-      <div>
-      <div className="text-[10px] text-gray-400 uppercase tracking-wider">Major Link</div>
-      <div className="font-heading text-secondary">A56 Bypass</div>
-      </div>
-      <div className="h-8 w-px bg-white/10"></div>
-      <div>
-      <div className="text-[10px] text-gray-400 uppercase tracking-wider">Moorland Artery</div>
-      <div className="font-heading text-white">B6232 Grane Rd</div>
-      </div>
-      <div className="h-8 w-px bg-white/10 hidden sm:block"></div>
-      <div className="hidden sm:block">
-      <div className="text-[10px] text-gray-400 uppercase tracking-wider">Valley Connector</div>
-      <div className="font-heading text-white">A680 / A676</div>
-      </div>
-      </div>
-      <a className="px-5 py-2.5 rounded-full bg-secondary text-primary font-heading text-xs uppercase tracking-wider hover:brightness-110 transition-all flex items-center gap-2" href="tel:07955266077">
-      <Navigation className="h-[14px] w-[14px]" />
-      <span>Request Roadside Van</span>
-      </a>
-      </div>
-      </div>
+      {/* Local area map */}
+      <LocationMapEmbed areaLabel="Haslingden" />
       </div>
       </section>
       {/* HOW IT WORKS: Curved / Wavy Path Progression */}

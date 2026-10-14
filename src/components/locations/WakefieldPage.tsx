@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, ChevronDown, MessageCircle, PhoneCall, ShieldCheck, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import LocationMapEmbed from "@/components/LocationMapEmbed";
 
 export default function WakefieldPage() {
   return (
@@ -119,13 +120,7 @@ export default function WakefieldPage() {
       </div>
       <Truck className="text-gray-400 h-[30px] w-[30px]" />
       </div>
-      <div className="w-full h-64 bg-cover bg-center rounded-xl relative shadow-inner" data-location="Wakefield, West Yorkshire, UK" style={{ backgroundImage: "url('/gallery-roadside-fitting.webp')" }}>
-      <div className="absolute inset-0 bg-primary-dark/40 rounded-xl flex items-end p-4">
-      <span className="px-3 py-1.5 rounded-full bg-primary-dark/90 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold">
-                      Live Patrol: Wakefield Town &amp; Earlsheaton
-                    </span>
-      </div>
-      </div>
+      <LocationMapEmbed areaLabel="Wakefield" />
       </div>
       </div>
       </div>

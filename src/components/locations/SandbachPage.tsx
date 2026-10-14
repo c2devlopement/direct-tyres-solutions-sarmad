@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, CircleDot, ClipboardCheck, Compass, CreditCard, HelpCircle, Info, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Tractor, TrafficCone } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function SandbachPage() {
   return (
@@ -544,6 +545,7 @@ export default function SandbachPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Sandbach" />
     </main>
   );
 }

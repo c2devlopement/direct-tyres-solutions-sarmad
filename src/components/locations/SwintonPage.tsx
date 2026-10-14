@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, Building2, Car, CheckCircle2, ChevronDown, Clock, CornerUpRight, CreditCard, Gauge, KeyRound, Navigation, PhoneCall, Route, ShieldCheck, Signpost, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function SwintonPage() {
   return (
@@ -472,6 +473,7 @@ export default function SwintonPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Swinton" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, Clock, Gauge, MessageCircle, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function PrestwichPage() {
   return (
@@ -436,6 +437,7 @@ export default function PrestwichPage() {
             </span>
       </div>
       </section>
+      <LocationMap areaLabel="Prestwich" />
     </main>
   );
 }

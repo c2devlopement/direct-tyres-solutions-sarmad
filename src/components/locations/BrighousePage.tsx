@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, BatteryCharging, Car, CheckCircle2, CreditCard, FileImage, Gauge, HelpCircle, KeyRound, MapPin, Navigation, PhoneCall, ShieldCheck, Truck, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BrighousePage() {
   return (
@@ -602,6 +603,7 @@ export default function BrighousePage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Brighouse" />
     </main>
   );
 }

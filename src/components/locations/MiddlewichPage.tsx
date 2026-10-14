@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Award, Car, Clock, CreditCard, HelpCircle, Home, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Star, TrafficCone, Unlock, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MiddlewichPage() {
   return (
@@ -531,6 +532,7 @@ export default function MiddlewichPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Middlewich" />
     </main>
   );
 }

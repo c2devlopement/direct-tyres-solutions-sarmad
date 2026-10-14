@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ChevronDown, Clock, Headphones, HelpCircle, KeyRound, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function AltrinchamPage() {
   return (
@@ -445,6 +446,7 @@ export default function AltrinchamPage() {
             </p>
       </div>
       </section>
+      <LocationMap areaLabel="Altrincham" />
     </main>
   );
 }

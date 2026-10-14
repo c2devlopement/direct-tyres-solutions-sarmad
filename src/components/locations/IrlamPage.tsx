@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Disc, MessageCircle, PhoneCall, Truck, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function IrlamPage() {
   return (
@@ -289,6 +290,7 @@ export default function IrlamPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Irlam" />
     </main>
   );
 }

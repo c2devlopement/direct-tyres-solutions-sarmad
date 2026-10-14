@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Bus, CheckCircle2, ChevronDown, ClipboardList, Compass, MapPin, MessageCircle, PhoneCall, ShieldCheck, Siren, Timer, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function TyldesleyPage() {
   return (
@@ -540,6 +541,7 @@ export default function TyldesleyPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Tyldesley" />
     </main>
   );
 }

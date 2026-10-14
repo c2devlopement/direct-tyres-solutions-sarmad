@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, ChevronDown, MessageCircle, PhoneCall, ShieldCheck, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WakefieldPage() {
   return (
@@ -473,6 +474,7 @@ export default function WakefieldPage() {
       {/* Interactive Accordion Handler */}
       
       </div>
+      <LocationMap areaLabel="Wakefield" />
     </main>
   );
 }

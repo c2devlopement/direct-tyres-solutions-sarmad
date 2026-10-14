@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ChevronDown, History, Info, KeyRound, MapPin, PhoneCall, Route, ShieldCheck, Siren, Timer, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HorwichPage() {
   return (
@@ -299,6 +300,7 @@ export default function HorwichPage() {
             </span>
       </div>
       </section>
+      <LocationMap areaLabel="Horwich" />
     </main>
   );
 }

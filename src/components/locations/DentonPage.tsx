@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, CheckCircle2, Disc, Gauge, HelpCircle, Home, Lock, MapPin, MessageCircle, PhoneCall, ShieldCheck, Truck, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function DentonPage() {
   return (
@@ -504,6 +505,7 @@ export default function DentonPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Denton" />
     </main>
   );
 }

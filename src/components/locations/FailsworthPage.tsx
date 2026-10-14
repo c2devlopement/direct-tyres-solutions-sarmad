@@ -16,6 +16,7 @@ import {
   Truck,
 } from "lucide-react";
 import ScrollDeck from "./ScrollDeck";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -539,6 +540,7 @@ export default function FailsworthPage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Failsworth" />
     </main>
   );
 }

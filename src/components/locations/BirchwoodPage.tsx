@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Award, CreditCard, Gavel, HelpCircle, History, PhoneCall, Receipt, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BirchwoodPage() {
   return (
@@ -398,6 +399,7 @@ export default function BirchwoodPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Birchwood" />
     </main>
   );
 }

@@ -14,6 +14,7 @@ import {
   Navigation,
   Radar,
 } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -384,6 +385,7 @@ export default function ReddishPage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Reddish" />
     </main>
   );
 }

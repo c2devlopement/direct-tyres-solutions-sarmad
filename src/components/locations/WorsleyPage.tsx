@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Building2, Car, CheckCircle2, CircleDot, HelpCircle, Home, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Timer, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WorsleyPage() {
   return (
@@ -469,6 +470,7 @@ export default function WorsleyPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Worsley" />
     </main>
   );
 }

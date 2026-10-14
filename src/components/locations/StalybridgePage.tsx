@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Car, CheckCircle2, ChevronDown, Clock, CreditCard, Home, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Unlock, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function StalybridgePage() {
   return (
@@ -444,6 +445,7 @@ export default function StalybridgePage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Stalybridge" />
     </main>
   );
 }

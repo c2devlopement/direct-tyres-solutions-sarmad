@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronRight, Clock, Headphones, HelpCircle, List, MessageCircle, Navigation, PhoneCall, Route, Search, ShieldCheck, Truck, Warehouse, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WinsfordPage() {
   return (
@@ -537,6 +538,7 @@ export default function WinsfordPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Winsford" />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Check, ChevronDown, Clock, Compass, MapPin, MessageCircle, PhoneCall, ShieldCheck, Siren } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HolmesChapelPage() {
   return (
@@ -279,6 +280,7 @@ export default function HolmesChapelPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Holmes Chapel" />
     </main>
   );
 }

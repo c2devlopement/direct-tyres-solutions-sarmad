@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Car, CheckCircle2, CreditCard, HelpCircle, MapPin, MessageCircle, MessageSquare, PhoneCall, ShieldCheck, Star, Timer, Truck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BuryPage() {
   return (
@@ -523,6 +524,7 @@ export default function BuryPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Bury" />
     </main>
   );
 }

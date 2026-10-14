@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Building2, Car, Clock, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, TrafficCone, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WarringtonPage() {
   return (
@@ -550,6 +551,7 @@ export default function WarringtonPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Warrington" />
     </main>
   );
 }

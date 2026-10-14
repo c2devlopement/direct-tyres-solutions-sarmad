@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, ChevronDown, Clock, Home, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Truck, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MilnrowPage() {
   return (
@@ -524,6 +525,7 @@ export default function MilnrowPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Milnrow" />
     </main>
   );
 }

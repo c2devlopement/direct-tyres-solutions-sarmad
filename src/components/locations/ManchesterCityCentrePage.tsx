@@ -14,6 +14,7 @@ import {
   Phone,
   Car,
 } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -409,6 +410,7 @@ export default function ManchesterCityCentrePage() {
           </div>
         </div>
       </section>
+      <LocationMap areaLabel="Manchester City Centre" />
     </main>
   );
 }

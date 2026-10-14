@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, CheckCircle2, ChevronDown, Disc, Info, MessageCircle, Navigation, PhoneCall, ShieldCheck, Timer, Truck, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function MiddletonPage() {
   return (
@@ -437,6 +438,7 @@ export default function MiddletonPage() {
       </div>
       </section>
       {/* Interactive Accordion Logic */}
+      <LocationMap areaLabel="Middleton" />
     </main>
   );
 }

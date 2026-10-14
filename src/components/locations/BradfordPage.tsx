@@ -1,4 +1,5 @@
 import { ArrowRight, Building2, Car, CreditCard, Disc, Gauge, MessageCircle, Navigation, PhoneCall, Search, TrafficCone, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function BradfordPage() {
   return (
@@ -437,6 +438,7 @@ export default function BradfordPage() {
             </span>
       </div>
       </section>
+      <LocationMap areaLabel="Bradford" />
     </main>
   );
 }

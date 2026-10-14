@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AlertTriangle, ChevronDown, CircleDot, Clock, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function LeighPage() {
   return (
@@ -479,6 +480,7 @@ export default function LeighPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Leigh" />
     </main>
   );
 }

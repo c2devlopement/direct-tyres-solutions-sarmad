@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronRight, Clock, CreditCard, Disc, HelpCircle, Navigation, Package, PhoneCall, Route, Search, Shield, ShieldCheck, Siren, Star, Timer, Truck, Unlock, Wrench, Zap } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function HuddersfieldPage() {
   return (
@@ -572,6 +573,7 @@ export default function HuddersfieldPage() {
       </div>
       </section>
       </div>
+      <LocationMap areaLabel="Huddersfield" />
     </main>
   );
 }

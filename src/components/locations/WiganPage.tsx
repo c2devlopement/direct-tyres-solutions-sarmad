@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, Briefcase, ClipboardCheck, CreditCard, HelpCircle, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WiganPage() {
   return (
@@ -435,6 +436,7 @@ export default function WiganPage() {
       </div>
       </div>
       </section>
+      <LocationMap areaLabel="Wigan" />
     </main>
   );
 }

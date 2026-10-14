@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight, ChevronRight, HelpCircle, MapPin, Navigation, PhoneCall, ShieldCheck, Timer, Wrench } from "lucide-react";
+import LocationMap from "@/components/LocationMap";
 
 export default function WhitefieldPage() {
   return (
@@ -424,6 +425,7 @@ export default function WhitefieldPage() {
             </p>
       </div>
       </div>
+      <LocationMap areaLabel="Whitefield" />
     </main>
   );
 }

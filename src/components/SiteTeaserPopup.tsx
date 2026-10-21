@@ -1,23 +1,27 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Video, X } from "lucide-react";
 
-const DISMISS_KEY = "dts-teaser-popup-dismissed";
+const DISMISS_KEY_PREFIX = "dts-teaser-popup-dismissed:";
 
 export default function SiteTeaserPopup() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
+    const dismissKey = DISMISS_KEY_PREFIX + pathname;
+
     try {
-      if (sessionStorage.getItem(DISMISS_KEY)) return;
+      if (sessionStorage.getItem(dismissKey)) return;
     } catch {
       /* ignore */
     }
 
     const timer = setTimeout(() => setOpen(true), 1500);
     return () => clearTimeout(timer);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;
@@ -33,7 +37,7 @@ export default function SiteTeaserPopup() {
   function dismiss() {
     setOpen(false);
     try {
-      sessionStorage.setItem(DISMISS_KEY, "1");
+      sessionStorage.setItem(DISMISS_KEY_PREFIX + pathname, "1");
     } catch {
       /* ignore */
     }

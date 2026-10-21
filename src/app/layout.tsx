@@ -3,6 +3,7 @@ import { Chivo, Inter, JetBrains_Mono } from "next/font/google";
 import Header3 from "@/components/home3/Header3";
 import Footer3 from "@/components/home3/Footer3";
 import OrganizationJsonLd from "@/components/OrganizationJsonLd";
+import SiteTeaserPopup from "@/components/SiteTeaserPopup";
 import { SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Header3 />
         {children}
         <Footer3 />
+        <SiteTeaserPopup />
       </body>
     </html>
   );

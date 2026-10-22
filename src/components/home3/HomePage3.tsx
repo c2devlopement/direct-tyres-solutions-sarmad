@@ -3,11 +3,13 @@ import Hero3 from "./Hero3";
 import Reviews3 from "./Reviews3";
 import Services3 from "./Services3";
 import TrustBar3 from "./TrustBar3";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HomePage3() {
   return (
     <main>
       <Hero3 />
+      <HeroTeaserCard />
       <TrustBar3 />
       <Services3 />
       <Reviews3 />

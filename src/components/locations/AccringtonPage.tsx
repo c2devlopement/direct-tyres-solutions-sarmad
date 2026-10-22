@@ -1,5 +1,6 @@
 import { ArrowRight, Car, ChevronDown, CreditCard, FileImage, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, PhoneForwarded, Route, SearchCheck, ShieldCheck, Truck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function AccringtonPage() {
   return (
@@ -55,6 +56,7 @@ export default function AccringtonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* Band 2: Intro (Solid Deep Navy #0b1e3d) */}
       <section className="w-full bg-primary/60 py-space-xl">
       <div className="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin">

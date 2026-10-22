@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, Car, Clock, CreditCard, Disc, Gauge, KeyRound, MessageCircle, Moon, Package, PhoneCall, Route, Search, Shield, ShieldCheck, SlidersHorizontal, Timer, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function CheadlePage() {
   return (
@@ -80,6 +81,7 @@ export default function CheadlePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO & CONTEXT */}
       <section className="w-full bg-primary text-white py-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1280px] mx-auto">

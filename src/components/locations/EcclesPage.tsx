@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Clock, CreditCard, MapPin, MessageCircle, Navigation, PhoneCall, Route, Shield, ShieldCheck, Timer, Truck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function EcclesPage() {
   return (
@@ -40,6 +41,7 @@ export default function EcclesPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. STATS STRIP */}
       <section className="w-full bg-primary-dark py-8">
       <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin">

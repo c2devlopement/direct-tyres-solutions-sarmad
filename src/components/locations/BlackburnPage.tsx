@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronDown, MapPin, MessageCircle, PhoneCall, Truck, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function BlackburnPage() {
   return (
@@ -68,6 +69,7 @@ export default function BlackburnPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: 2x2 SERVICES GRID */}
       <section className="w-full bg-primary-dark py-space-xl lg:py-24">
       <div className="max-w-[1280px] mx-auto px-margin-mobile md:px-margin">

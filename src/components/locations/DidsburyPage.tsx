@@ -16,6 +16,7 @@ import {
   Bolt,
 } from "lucide-react";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -119,6 +120,8 @@ export default function DidsburyPage() {
           </div>
         </div>
       </section>
+
+      <HeroTeaserCard />
 
       {/* 2. LOCAL INTRO */}
       <section className="py-16 md:py-20 bg-primary">

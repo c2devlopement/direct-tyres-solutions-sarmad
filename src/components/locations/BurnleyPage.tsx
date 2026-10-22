@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Clock, CreditCard, HelpCircle, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function BurnleyPage() {
   return (
@@ -36,6 +37,7 @@ export default function BurnleyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: STAT STRIP */}
       <section className="w-full bg-primary-dark py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

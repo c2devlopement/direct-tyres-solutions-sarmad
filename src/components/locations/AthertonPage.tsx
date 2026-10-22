@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ChevronDown, History, Info, KeyRound, MapPin, PhoneCall, Route, ShieldCheck, Siren, Timer, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function AthertonPage() {
   return (
@@ -41,6 +42,7 @@ export default function AthertonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* Divider */}
       <div className="w-full bg-primary-dark px-4">
       <div className="max-w-2xl mx-auto h-[1px] bg-white/10"></div>

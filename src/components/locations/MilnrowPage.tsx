@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, ChevronDown, Clock, Home, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Truck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function MilnrowPage() {
   return (
@@ -86,6 +87,7 @@ export default function MilnrowPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO SECTION */}
       <section className="w-full bg-primary-dark py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

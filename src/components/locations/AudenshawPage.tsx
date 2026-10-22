@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check, Clock, Disc, HelpCircle, Home, KeyRound, MapPin, MessageCircle, PhoneCall, RefreshCw, Route, ShieldCheck, Signpost, Timer, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function AudenshawPage() {
   return (
@@ -72,6 +73,7 @@ export default function AudenshawPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* INTERACTIVE SERVICES TAB BAR SECTION */}
       <section className="w-full bg-primary-dark py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-10">

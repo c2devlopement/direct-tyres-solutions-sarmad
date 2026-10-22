@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Disc, Home, PhoneCall, Route, ShieldCheck, Truck, Unlock, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WalkdenPage() {
   return (
@@ -38,6 +39,7 @@ export default function WalkdenPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       <div className="w-full bg-primary-dark py-16 px-4 sm:px-6">
       <div className="max-w-[640px] mx-auto flex flex-col gap-14">
       <section className="flex flex-col gap-4">

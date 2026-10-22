@@ -1,6 +1,7 @@
 import { ArrowRight, Building2, Car, CreditCard, Gauge, MessageCircle, Navigation, PhoneCall, Search, TrafficCone, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function BradfordPage() {
   return (
@@ -56,6 +57,7 @@ export default function BradfordPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL BRADFORD INFRASTRUCTURE OVERVIEW */}
       <section className="w-full bg-primary-dark py-20 px-6">
       <div className="max-w-7xl mx-auto flex flex-col gap-12">

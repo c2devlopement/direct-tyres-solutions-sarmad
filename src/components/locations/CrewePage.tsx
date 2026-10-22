@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AlarmClockCheck, Clock, Headphones, KeyRound, MapPin, MessageCircle, Moon, PhoneCall, ShieldCheck, ShoppingCart, TrafficCone, TrainFront, Truck, Unlock, Warehouse, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function CrewePage() {
   return (
@@ -69,6 +70,7 @@ export default function CrewePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO (Railway Hub & Retail Priority) */}
       <section className="w-full bg-primary-dark text-white py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-6">

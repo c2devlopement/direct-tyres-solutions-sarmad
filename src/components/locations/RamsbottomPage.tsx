@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Car, ChevronDown, Clock, MapPin, MessageCircle, Moon, Navigation, PhoneCall, Route, ShieldCheck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function RamsbottomPage() {
   return (
@@ -49,6 +50,7 @@ export default function RamsbottomPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO */}
       <section className="w-full bg-primary-dark py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ChevronRight, Clock, HelpCircle, Info, MapPin, MessageCircle, PhoneCall, Route, Shield, ShieldCheck, Timer, Truck, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function ChorleyPage() {
   return (
@@ -83,6 +84,7 @@ export default function ChorleyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO: THE CHORLEY JUNCTION NEXUS */}
       <section className="w-full bg-primary-dark py-12">
       <div className="max-w-[1280px] mx-auto px-4 md:px-8">

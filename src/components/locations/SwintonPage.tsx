@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, Clock, CreditCard, Gauge, KeyRound, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function SwintonPage() {
   return (
@@ -64,6 +65,7 @@ export default function SwintonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL COMMUTING INTRO */}
       <section className="w-full bg-primary text-white py-14 lg:py-18 px-4 sm:px-8 xl:px-12 flex justify-center">
       <div className="max-w-[1280px] w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">

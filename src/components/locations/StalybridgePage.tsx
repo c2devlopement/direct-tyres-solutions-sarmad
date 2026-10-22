@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Car, CheckCircle2, ChevronDown, Clock, CreditCard, Home, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function StalybridgePage() {
   return (
@@ -58,6 +59,7 @@ export default function StalybridgePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. Local Intro (Centered Column ~760px) */}
       <section className="w-full bg-primary-dark py-16 px-4">
       <div className="max-w-[760px] mx-auto flex flex-col gap-6 text-white">

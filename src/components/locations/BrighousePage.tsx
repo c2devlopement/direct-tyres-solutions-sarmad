@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, BatteryCharging, Car, CheckCircle2, CreditCard, FileImage, Gauge, HelpCircle, KeyRound, MapPin, Navigation, PhoneCall, ShieldCheck, Truck, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function BrighousePage() {
   return (
@@ -99,6 +100,7 @@ export default function BrighousePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL STRATEGIC INTRO: J25 & Industrial Thoroughfares */}
       <section className="py-16 bg-primary-dark/50">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">

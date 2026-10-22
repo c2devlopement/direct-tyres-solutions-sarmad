@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Car, ChevronDown, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HazelGrovePage() {
   return (
@@ -51,6 +52,7 @@ export default function HazelGrovePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* BAND 2: LOCAL INTRO SECTION */}
       <section className="w-full bg-primary-dark py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start">

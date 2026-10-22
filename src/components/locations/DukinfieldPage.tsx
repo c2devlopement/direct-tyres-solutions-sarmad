@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Building2, ChevronDown, HelpCircle, Map, MapPin, MessageCircle, PhoneCall, Route, Siren, TrafficCone, Truck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function DukinfieldPage() {
   return (
@@ -54,6 +55,7 @@ export default function DukinfieldPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* Two-Column Rail Structure */}
       <section className="w-full bg-primary-dark py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

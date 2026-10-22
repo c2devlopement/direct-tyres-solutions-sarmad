@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronDown, Clock, MapPin, MessageCircle, PhoneCall, ShieldCheck, TrafficCone, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function StretfordPage() {
   return (
@@ -114,6 +115,7 @@ export default function StretfordPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL INTRO: COMMUNITY & TRAFFIC PROFILE */}
       <section className="space-y-4">
       <div className="flex items-center gap-2 text-secondary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold">

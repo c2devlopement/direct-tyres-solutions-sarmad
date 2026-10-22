@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, ChevronRight, HelpCircle, MapPin, Navigation, PhoneCall, ShieldCheck, Timer, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WhitefieldPage() {
   return (
@@ -131,6 +132,7 @@ export default function WhitefieldPage() {
       </div>
       </div>
       </div>
+      <HeroTeaserCard />
       {/* Local Context & Arterial Roads */}
       <div className="bg-primary-dark p-space-lg rounded-2xl space-y-space-md">
       <div className="flex items-center gap-3">

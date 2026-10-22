@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AlertTriangle, ChevronDown, Clock, KeyRound, MapPin, MessageCircle, PhoneCall, ShieldCheck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function LeighPage() {
   return (
@@ -75,6 +76,7 @@ export default function LeighPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO */}
       <section className="w-full bg-primary/60 py-space-xl">
       <div className="max-w-[1280px] mx-auto px-margin-mobile md:px-margin">

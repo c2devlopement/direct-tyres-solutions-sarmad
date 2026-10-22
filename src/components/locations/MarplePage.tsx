@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, Building2, CheckCircle2, Clock, MapPin, MessageCircle, PhoneCall, Route, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function MarplePage() {
   return (
@@ -32,6 +33,7 @@ export default function MarplePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO */}
       <section className="w-full py-12 md:py-16 bg-primary-dark">
       <div className="max-w-2xl mx-auto px-margin-mobile md:px-margin text-center">

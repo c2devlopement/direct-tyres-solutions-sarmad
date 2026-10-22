@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check, ChevronDown, Clock, Compass, MapPin, MessageCircle, PhoneCall, ShieldCheck, Siren } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HolmesChapelPage() {
   return (
@@ -43,6 +44,7 @@ export default function HolmesChapelPage() {
             </p>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO & CONTEXT */}
       <section className="w-full bg-primary-dark py-space-xl px-margin-mobile">
       <div className="mx-auto max-w-xl flex flex-col space-y-space-md">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Briefcase, ClipboardCheck, CreditCard, HelpCircle, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WiganPage() {
   return (
@@ -37,6 +38,7 @@ export default function WiganPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 4-CARD STAT STRIP */}
       <section className="w-full bg-primary-dark py-6">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">

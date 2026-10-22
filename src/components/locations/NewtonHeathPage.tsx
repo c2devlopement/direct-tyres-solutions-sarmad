@@ -9,6 +9,7 @@ import {
   Truck,
 } from "lucide-react";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -90,6 +91,8 @@ export default function NewtonHeathPage() {
           </div>
         </div>
       </section>
+
+      <HeroTeaserCard />
 
       {/* 2. LOCAL INTRO */}
       <section className="w-full bg-primary py-16 md:py-20">

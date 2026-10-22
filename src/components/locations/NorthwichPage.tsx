@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, CircleDot, ClipboardCheck, Compass, CreditCard, HelpCircle, Info, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Tractor, TrafficCone } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function NorthwichPage() {
   return (
@@ -51,6 +52,7 @@ export default function NorthwichPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. BENEATH HERO: STATS STRIP */}
       <section className="w-full bg-primary-dark py-space-md">
       <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin">

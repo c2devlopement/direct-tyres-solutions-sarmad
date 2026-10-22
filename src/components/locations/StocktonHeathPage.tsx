@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, Car, CheckCircle2, ChevronDown, Home, KeyRound, MessageCircle, Navigation, PhoneCall, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function StocktonHeathPage() {
   return (
@@ -63,6 +64,7 @@ export default function StocktonHeathPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: TWO-TONE SIDEBAR & MAIN COLUMN */}
       <section className="w-full bg-primary-dark py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

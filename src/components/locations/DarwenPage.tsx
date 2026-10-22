@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Car, CheckCircle2, CreditCard, Flame, MapPin, MessageCircle, Mountain, Navigation, PhoneCall, Route, ShieldCheck, Snowflake, Unlock, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function DarwenPage() {
   return (
@@ -61,6 +62,7 @@ export default function DarwenPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO & PENNINE CHALLENGES */}
       <section className="w-full bg-primary-dark px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

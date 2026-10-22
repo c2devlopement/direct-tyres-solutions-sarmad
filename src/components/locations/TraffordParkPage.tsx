@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Award, CreditCard, Gavel, HelpCircle, History, PhoneCall, Receipt, Route, ShieldCheck, Star, Timer, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function TraffordParkPage() {
   return (
@@ -38,6 +39,7 @@ export default function TraffordParkPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. STATS STRIP: 4-Card flat grid */}
       <section className="w-full bg-primary-dark py-space-lg">
       <div className="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">

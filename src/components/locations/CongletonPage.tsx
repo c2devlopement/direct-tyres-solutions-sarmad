@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowLeft, ArrowRight, Award, Car, Clock, CreditCard, HelpCircle, Home, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Star, TrafficCone, Unlock, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function CongletonPage() {
   return (
@@ -37,6 +38,7 @@ export default function CongletonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: TRUST BADGES (Flat style, 4 badges) */}
       <section className="w-full bg-primary-dark py-6">
       <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">

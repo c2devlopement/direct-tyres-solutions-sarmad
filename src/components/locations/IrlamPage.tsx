@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Disc, MessageCircle, PhoneCall, Truck, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function IrlamPage() {
   return (
@@ -37,6 +38,7 @@ export default function IrlamPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* BAND 2: INTRO (Flat Navy Band) */}
       <section className="w-full py-16 md:py-20 px-4 md:px-8 bg-primary-dark">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start justify-between">

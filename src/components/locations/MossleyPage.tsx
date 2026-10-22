@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check, MessageCircle, PhoneCall, ShieldCheck, Timer } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function MossleyPage() {
   return (
@@ -44,6 +45,7 @@ export default function MossleyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO */}
       <section className="w-full bg-primary-dark py-20 px-4">
       <div className="max-w-[680px] mx-auto text-center">

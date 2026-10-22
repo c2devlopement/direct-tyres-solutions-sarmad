@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronRight, Clock, CreditCard, Disc, HelpCircle, Navigation, Package, PhoneCall, Route, Search, Shield, ShieldCheck, Siren, Star, Timer, Truck, Unlock, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HuddersfieldPage() {
   return (
@@ -87,6 +88,7 @@ export default function HuddersfieldPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO & GEOGRAPHY INSIGHT */}
       <section className="w-full max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="bg-primary/60 rounded-2xl p-6 sm:p-10 lg:p-12 shadow-xl">

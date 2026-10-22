@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Bus, CheckCircle2, ChevronDown, ClipboardList, Compass, MapPin, MessageCircle, PhoneCall, ShieldCheck, Siren, Timer, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function TyldesleyPage() {
   return (
@@ -63,6 +64,7 @@ export default function TyldesleyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* BODY ARRANGEMENT: TWO-TONE SIDEBAR & MAIN CONTENT */}
       <section className="w-full bg-primary-dark py-12 lg:py-16">
       <div className="max-w-7xl mx-auto px-6">

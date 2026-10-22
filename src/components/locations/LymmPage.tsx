@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, ChevronDown, Clock, Headphones, HelpCircle, KeyRound, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function LymmPage() {
   return (
@@ -69,6 +70,7 @@ export default function LymmPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO (Darker Navy #061226) */}
       <section className="w-full bg-primary-dark py-20 px-6 md:px-12 lg:px-16 border-t border-b border-white/5">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">

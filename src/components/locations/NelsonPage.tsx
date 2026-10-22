@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, CheckCircle2, ChevronDown, Home, KeyRound, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Siren, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function NelsonPage() {
   return (
@@ -79,6 +80,7 @@ export default function NelsonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL INTRO: Textile-Town & Commuter Context */}
       <section className="w-full bg-primary/60 px-gutter-mobile md:px-margin py-space-xl">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, BellRing, Car, CheckCircle2, ChevronDown, ChevronRight, Clock, Home, MapPin, PhoneCall, ShieldCheck, Star, Timer, Truck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function AlderleyEdgePage() {
   return (
@@ -195,6 +196,7 @@ export default function AlderleyEdgePage() {
       </div>
       </div>
       </article>
+      <HeroTeaserCard />
       {/* b. SERVICES (2-COLUMN LIST WITH IMAGE THUMBNAILS) */}
       <article className="space-y-6" id="services">
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">

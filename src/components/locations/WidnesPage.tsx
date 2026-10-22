@@ -2,6 +2,7 @@ import Image from "next/image";
 import { CheckCircle2, ChevronDown, Clock, Gauge, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Star, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WidnesPage() {
   return (
@@ -58,6 +59,7 @@ export default function WidnesPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* BODY CONTENT: Split Layout with Side Rail */}
       <div className="w-full bg-primary-dark py-space-xl">
       <div className="max-w-7xl mx-auto px-margin-mobile sm:px-gutter">

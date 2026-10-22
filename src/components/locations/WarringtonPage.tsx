@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Building2, Car, Clock, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, TrafficCone, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WarringtonPage() {
   return (
@@ -82,6 +83,7 @@ export default function WarringtonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO */}
       <section className="w-full bg-primary/60 py-space-xl border-y border-white/5">
       <div className="max-w-7xl mx-auto px-margin-mobile md:px-margin">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Car, Check, CheckCircle2, ChevronDown, KeyRound, MessageCircle, Navigation, PhoneCall, Shield, ShieldCheck, Timer, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function StockportPage() {
   return (
@@ -63,6 +64,7 @@ export default function StockportPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO */}
       <section className="w-full bg-primary-dark py-16 lg:py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

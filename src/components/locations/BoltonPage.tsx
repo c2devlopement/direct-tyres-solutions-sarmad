@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Car, CheckCircle2, ChevronRight, CreditCard, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, Truck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function BoltonPage() {
   return (
@@ -53,6 +54,7 @@ export default function BoltonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL INTRO BLOCK (#061226) */}
       <section className="w-full bg-primary-dark text-white py-16">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">

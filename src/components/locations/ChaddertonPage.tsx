@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import ScrollDeck from "./ScrollDeck";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -140,6 +141,8 @@ export default function ChaddertonPage() {
           </div>
         </div>
       </section>
+
+      <HeroTeaserCard />
 
       {/* 2. LOCAL INTRO */}
       <section className="bg-primary-dark py-12">

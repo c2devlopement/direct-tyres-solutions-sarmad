@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronRight, Clock, Headphones, HelpCircle, List, MessageCircle, Navigation, PhoneCall, Route, Search, ShieldCheck, Truck, Warehouse, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WinsfordPage() {
   return (
@@ -63,6 +64,7 @@ export default function WinsfordPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* TWO-TONE SIDEBAR + CONTENT SECTION */}
       <section className="w-full bg-primary-dark py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

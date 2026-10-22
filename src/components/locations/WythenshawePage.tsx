@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowUpRight, CheckCircle2, Clock, HelpCircle, KeyRound, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WythenshawePage() {
   return (
@@ -81,6 +82,7 @@ export default function WythenshawePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LIVE STATUS BAR */}
       <aside className="w-full bg-primary-dark border-y border-white/10 py-3.5 px-4 sm:px-8">
       <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">

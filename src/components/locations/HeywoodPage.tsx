@@ -1,5 +1,6 @@
 import { ArrowRight, Check, CircleDot, Clock, Compass, Headphones, HelpCircle, MapPin, MessageCircle, Navigation, PhoneCall, Route, ShieldCheck, Siren, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HeywoodPage() {
   return (
@@ -43,6 +44,7 @@ export default function HeywoodPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* STATS STRIP: 4 Modular Cards */}
       <section className="w-full bg-primary-dark py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

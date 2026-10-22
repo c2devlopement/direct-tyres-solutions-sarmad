@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AlertTriangle, CheckCircle2, ChevronDown, Disc, Info, MessageCircle, PhoneCall, ShieldCheck, Timer, Truck, Wrench, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function MiddletonPage() {
   return (
@@ -56,6 +57,7 @@ export default function MiddletonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. Local Intro Section */}
       <section className="w-full bg-primary-dark py-14 px-6 sm:px-10">
       <div className="max-w-[1280px] mx-auto">

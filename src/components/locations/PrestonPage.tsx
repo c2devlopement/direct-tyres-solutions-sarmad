@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, CircleDot, Clock, Disc, Gauge, HardHat, HelpCircle, MapPin, MessageCircle, PhoneCall, ShieldCheck, Timer, Truck, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function PrestonPage() {
   return (
@@ -55,6 +56,7 @@ export default function PrestonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO: Strategic Junction Analysis */}
       <section className="w-full px-space-md lg:px-margin py-space-xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

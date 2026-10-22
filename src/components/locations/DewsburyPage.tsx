@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowRight, ArrowUpRight, ChevronDown, MessageCircle, PhoneCall, ShieldCheck, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function DewsburyPage() {
   return (
@@ -83,6 +84,7 @@ export default function DewsburyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO & MUNICIPAL CORRIDORS */}
       <section className="w-full bg-primary-dark py-space-xl px-gutter-mobile md:px-gutter lg:px-margin">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">

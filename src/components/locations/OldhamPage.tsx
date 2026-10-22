@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 const stars = [0, 1, 2, 3, 4];
 
@@ -77,6 +78,8 @@ export default function OldhamPage() {
           </div>
         </div>
       </section>
+
+      <HeroTeaserCard />
 
       {/* 2. LOCAL INTRO */}
       <section className="w-full py-18 bg-primary-dark">

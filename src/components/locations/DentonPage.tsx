@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, CheckCircle2, Disc, Gauge, HelpCircle, Home, Lock, MapPin, MessageCircle, PhoneCall, ShieldCheck, Truck, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function DentonPage() {
   return (
@@ -78,6 +79,7 @@ export default function DentonPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL INTRO: Terrain, Traffic & Logistics in Denton */}
       <section className="w-full bg-primary text-white py-16">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">

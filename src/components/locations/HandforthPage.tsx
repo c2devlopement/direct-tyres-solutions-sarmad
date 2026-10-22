@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Baby, Briefcase, CheckCircle2, ChevronDown, Clock, Disc, Headphones, Home, KeyRound, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HandforthPage() {
   return (
@@ -65,6 +66,7 @@ export default function HandforthPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* LOCAL INTRO & RESIDENTIAL EMPHASIS */}
       <section className="w-full bg-primary/60 py-14 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">

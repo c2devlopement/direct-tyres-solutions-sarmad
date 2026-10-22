@@ -1,5 +1,6 @@
 import { Car, CreditCard, Gavel, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Timer, TrafficCone, Truck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function AshtonUnderLynePage() {
   return (
@@ -38,6 +39,7 @@ export default function AshtonUnderLynePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. STAT STRIP */}
       <section className="w-full bg-primary-dark py-6">
       <div className="max-w-[1280px] mx-auto px-4 md:px-8">

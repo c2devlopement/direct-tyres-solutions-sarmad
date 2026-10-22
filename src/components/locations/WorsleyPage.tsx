@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, Building2, Car, CheckCircle2, CircleDot, HelpCircle, Home, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Timer, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function WorsleyPage() {
   return (
@@ -61,6 +62,7 @@ export default function WorsleyPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* SECTION 2: LOCAL OPERATIONAL INTRO */}
       <section className="w-full bg-primary-dark py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">

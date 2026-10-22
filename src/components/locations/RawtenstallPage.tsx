@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check, Clock, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Truck, Zap } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function RawtenstallPage() {
   return (
@@ -49,6 +50,7 @@ export default function RawtenstallPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO: Rossendale Valley Focus */}
       <section className="w-full bg-primary-dark py-space-xl px-space-md md:px-margin">
       <div className="max-w-[680px] mx-auto text-center flex flex-col items-center">

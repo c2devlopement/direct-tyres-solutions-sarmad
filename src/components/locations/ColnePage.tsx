@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, Check, CheckCircle2, ChevronDown, Disc, MapPin, MessageCircle, PhoneCall, Route, ShieldCheck, Star, Unlock, Wrench } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function ColnePage() {
   return (
@@ -71,6 +72,7 @@ export default function ColnePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL INTRO: Town-Edge, Arterials & Moorland Commuters */}
       <section className="w-full py-16 lg:py-20 px-4 sm:px-8 max-w-[1280px] mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

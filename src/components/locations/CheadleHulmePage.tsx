@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, Clock, CreditCard, Gauge, HelpCircle, MapPin, MessageCircle, Navigation, PhoneCall, Route, Shield, ShieldCheck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function CheadleHulmePage() {
   return (
@@ -42,6 +43,7 @@ export default function CheadleHulmePage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* STATS STRIP */}
       <section className="w-full bg-primary-dark py-6">
       <div className="max-w-7xl mx-auto px-margin-mobile lg:px-margin">

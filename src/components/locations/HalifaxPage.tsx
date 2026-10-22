@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, CreditCard, Headphones, MapPin, MessageCircle, PhoneCall, ShieldCheck } from "lucide-react";
 import LocationMap from "@/components/LocationMap";
+import HeroTeaserCard from "@/components/HeroTeaserCard";
 
 export default function HalifaxPage() {
   return (
@@ -75,6 +76,7 @@ export default function HalifaxPage() {
       </div>
       </div>
       </section>
+      <HeroTeaserCard />
       {/* 2. LOCAL CALDERDALE INTRO: STEEP ROADS & VALLEY GEOGRAPHY */}
       <section className="w-full bg-primary-dark py-16 lg:py-24">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">

@@ -79,7 +79,7 @@ export default function PrestonPage() {
       <div className="p-6 rounded-2xl bg-primary/60 backdrop-blur-md shadow-lg flex flex-col justify-between space-y-3">
       <div className="flex items-center justify-between">
       <Timer className="text-secondary h-[30px] w-[30px]" />
-      <span className="px-2 py-0.5 rounded-full bg-accent text-white text-[11px] leading-[14px] tracking-[0.06em] font-bold">Live</span>
+      <span className="px-2 py-0.5 rounded-full bg-secondary text-primary text-[11px] leading-[14px] tracking-[0.06em] font-bold">Live</span>
       </div>
       <div>
       <div className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white">28m</div>
@@ -89,7 +89,7 @@ export default function PrestonPage() {
       <div className="p-6 rounded-2xl bg-primary/60 backdrop-blur-md shadow-lg flex flex-col justify-between space-y-3">
       <div className="flex items-center justify-between">
       <Truck className="text-secondary h-[30px] w-[30px]" />
-      <span className="px-2 py-0.5 rounded-full bg-accent text-white text-[11px] leading-[14px] tracking-[0.06em] font-bold">Stock</span>
+      <span className="px-2 py-0.5 rounded-full bg-secondary text-primary text-[11px] leading-[14px] tracking-[0.06em] font-bold">Stock</span>
       </div>
       <div>
       <div className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white">3,500+</div>
@@ -99,7 +99,7 @@ export default function PrestonPage() {
       <div className="p-6 rounded-2xl bg-primary/60 backdrop-blur-md shadow-lg flex flex-col justify-between space-y-3">
       <div className="flex items-center justify-between">
       <HardHat className="text-secondary h-[30px] w-[30px]" />
-      <span className="px-2 py-0.5 rounded-full bg-primary-light text-gray-300 text-[11px] leading-[14px] tracking-[0.06em] font-bold">24/7</span>
+      <span className="px-2 py-0.5 rounded-full bg-secondary text-primary text-[11px] leading-[14px] tracking-[0.06em] font-bold">24/7</span>
       </div>
       <div>
       <div className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white">100%</div>

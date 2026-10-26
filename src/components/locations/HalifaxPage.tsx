@@ -137,7 +137,7 @@ export default function HalifaxPage() {
       <div className="grid grid-cols-1 lg:grid-cols-12 rounded-3xl bg-primary/60 overflow-hidden shadow-xl border border-white/10 group">
       <div className="lg:col-span-7 p-8 lg:p-12 flex flex-col justify-center order-2 lg:order-1">
       <div className="inline-flex items-center gap-2 mb-3">
-      <span className="px-3 py-1 rounded-full bg-accent text-white text-[11px] leading-[14px] tracking-[0.06em] font-bold">SERVICE 02</span>
+      <span className="px-3 py-1 rounded-full bg-secondary text-primary text-[11px] leading-[14px] tracking-[0.06em] font-bold">SERVICE 02</span>
       <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-300">HOME &amp; WORKPLACE FITTING</span>
       </div>
       <h3 className="font-heading text-[30px] leading-[38px] font-bold text-white uppercase mb-4">Residential &amp; Fleet Driveway Fitting</h3>

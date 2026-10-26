@@ -86,7 +86,7 @@ export default function RoytonPage() {
                 <div className="flex items-center gap-2">
                   <Siren className="h-6 w-6 text-secondary" />
                   <div>
-                    <p className="text-[11px] font-bold uppercase text-secondary-hover">Active Patrol Area</p>
+                    <p className="text-[11px] font-bold uppercase text-white">Active Patrol Area</p>
                     <p className="text-lg font-semibold">A671 &amp; Royton Bypass</p>
                   </div>
                 </div>
@@ -342,15 +342,15 @@ export default function RoytonPage() {
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4 text-white">
                 <div>
-                  <p className="text-[11px] font-bold uppercase text-secondary">Response Time</p>
-                  <p className="text-lg font-semibold text-secondary">20–35 Mins</p>
+                  <p className="text-[11px] font-bold uppercase text-white">Response Time</p>
+                  <p className="text-lg font-semibold text-white">20–35 Mins</p>
                 </div>
                 <div>
-                  <p className="text-[11px] font-bold uppercase text-secondary">Callout Windows</p>
+                  <p className="text-[11px] font-bold uppercase text-white">Callout Windows</p>
                   <p className="text-lg font-semibold">24/7 Mon–Sun</p>
                 </div>
                 <div>
-                  <p className="text-[11px] font-bold uppercase text-secondary">Alloy Guarantee</p>
+                  <p className="text-[11px] font-bold uppercase text-white">Alloy Guarantee</p>
                   <p className="text-lg font-semibold">Zero-Scratch</p>
                 </div>
               </div>

@@ -238,7 +238,7 @@ export default function ChorltonPage() {
             <div className="max-w-xl">
               <span className="text-[11px] font-bold uppercase tracking-wider text-secondary">South Manchester Rapid Ring</span>
               <h2 className="font-heading mt-1 text-[30px] leading-[38px] font-bold text-white">Continuous Roadside Patrol Surrounding Chorlton</h2>
-              <p className="text-base text-secondary-hover mt-2">In addition to full coverage throughout Chorlton-cum-Hardy (M21), our fleet guarantees prompt 20–35 min emergency callout to adjoining South Manchester sectors.</p>
+              <p className="text-base text-white mt-2">In addition to full coverage throughout Chorlton-cum-Hardy (M21), our fleet guarantees prompt 20–35 min emergency callout to adjoining South Manchester sectors.</p>
             </div>
             <div className="flex flex-wrap items-center gap-3">
               {["Didsbury (M20)", "Whalley Range (M16)", "Stretford (M32)", "Manchester City Centre"].map((a) => (
@@ -300,7 +300,7 @@ export default function ChorltonPage() {
                 <h2 className="font-heading text-[40px] leading-[48px] font-bold tracking-tight text-white">
                   Get an instant estimate for tyre fitting in Chorlton
                 </h2>
-                <p className="text-base text-secondary-hover">
+                <p className="text-base text-white">
                   No hidden mobile call-out surcharges for standard daytime bookings. All quotes include brand-new rubber valve, electronic balancing, mobile van dispatch to your location, and environmental casing recycling.
                 </p>
                 <div className="grid grid-cols-3 gap-3 pt-2 text-white">
@@ -388,7 +388,7 @@ export default function ChorltonPage() {
           <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white max-w-3xl">
             Stuck with a tyre in Chorlton? We&rsquo;re on our way.
           </h2>
-          <p className="mt-4 text-lg text-secondary-hover max-w-xl">
+          <p className="mt-4 text-lg text-white max-w-xl">
             Roadside blowout, puncture, or replacement on your driveway — call our 24/7 dispatch desk right now.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">

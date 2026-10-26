@@ -206,7 +206,7 @@ export default function NewtonHeathPage() {
             <div className="lg:col-span-8 flex flex-col gap-3">
               <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-wider">Manchester M40 Response Grid</span>
               <h2 className="font-heading text-[30px] leading-[38px] text-white font-bold">Fast Response Units Across Newton Heath &amp; Surrounding Wards</h2>
-              <p className="text-base text-secondary-hover leading-relaxed">
+              <p className="text-base text-white leading-relaxed">
                 Stationed continuously around East Manchester&rsquo;s primary arterial routes, our mobile workshops deliver rapid turnaround times across neighboring districts with zero delay.
               </p>
               <div className="flex flex-wrap gap-2.5 pt-1">
@@ -229,7 +229,7 @@ export default function NewtonHeathPage() {
                     <p className="text-[18px] leading-[24px] text-white font-bold">Liam R. &bull; Unit M40</p>
                   </div>
                 </div>
-                <p className="text-sm text-secondary-hover">
+                <p className="text-sm text-white">
                   &ldquo;We cover the Oldham Road artery 24/7. When rain or road debris strikes, we arrive in minutes with everything loaded on board.&rdquo;
                 </p>
               </div>
@@ -280,7 +280,7 @@ export default function NewtonHeathPage() {
             <div className="flex flex-col gap-2 max-w-2xl text-left">
               <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">Transparent Upfront Pricing</span>
               <h2 className="font-heading text-[30px] leading-[38px] text-white font-bold">Get an instant estimate for tyre fitting in Newton Heath</h2>
-              <p className="text-base text-secondary-hover">
+              <p className="text-base text-white">
                 No unexpected emergency surcharges or hidden call-out fees. Select your tyre size or vehicle registration for an all-inclusive quote covering fitting, balancing, new valves, and casing disposal.
               </p>
             </div>
@@ -354,7 +354,7 @@ export default function NewtonHeathPage() {
           <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] text-white font-extrabold max-w-3xl leading-tight mb-2">
             Stuck with a tyre in Newton Heath? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="text-lg text-white max-w-2xl mx-auto mb-8 leading-relaxed">
             Speak directly with a local dispatch controller. We locate your exact position and send the closest mobile fitting unit immediately.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">

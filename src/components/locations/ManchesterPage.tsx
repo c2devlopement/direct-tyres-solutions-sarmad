@@ -49,7 +49,7 @@ export default function ManchesterPage() {
             <h1 className="font-heading uppercase text-[40px] leading-none md:text-[56px] tracking-tight font-extrabold text-white">
               24/7 Mobile Tyre Fitting in <span className="text-secondary-hover">Manchester</span>
             </h1>
-            <p className="text-lg text-secondary-hover max-w-2xl leading-relaxed">
+            <p className="text-lg text-white max-w-2xl leading-relaxed">
               Greater Manchester&rsquo;s premier emergency mobile tyre fitting fleet — 20–35 minute dispatch to your roadside, office, or driveway.
             </p>
             <div className="flex flex-wrap items-center gap-3 text-white">
@@ -265,7 +265,7 @@ export default function ManchesterPage() {
                 Active Emergency Mobile Response Across Greater Manchester
               </h2>
             </div>
-            <p className="text-sm text-secondary-hover max-w-md">
+            <p className="text-sm text-white max-w-md">
               Stationed throughout core Greater Manchester sectors for rapid response without long depot turnaround times.
             </p>
           </div>
@@ -340,7 +340,7 @@ export default function ManchesterPage() {
               <h3 className="font-heading text-[30px] leading-[38px] font-bold text-white">
                 No Hidden Callout Fees. Clear Upfront Quotations Guaranteed.
               </h3>
-              <p className="text-base text-secondary-hover leading-relaxed">
+              <p className="text-base text-white leading-relaxed">
                 When you call, our Manchester dispatch dispatcher details the exact cost including callout, mobile tyre fitting, fresh valve, electronic balancing, and eco-friendly casing disposal before we roll. Never get ambushed by hidden roadside fees.
               </p>
             </div>
@@ -422,7 +422,7 @@ export default function ManchesterPage() {
           <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] font-bold text-white mb-4 max-w-3xl mx-auto">
             Stuck with a tyre in Manchester? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mb-8">
+          <p className="text-lg text-white max-w-2xl mx-auto mb-8">
             Don&rsquo;t risk driving on a flat across the city. Our nearest available technician can be with you in 20–35 minutes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

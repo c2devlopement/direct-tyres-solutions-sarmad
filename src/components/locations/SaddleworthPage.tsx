@@ -61,7 +61,7 @@ export default function SaddleworthPage() {
             <h1 className="font-heading uppercase text-[40px] leading-tight md:text-[56px] tracking-tight font-extrabold text-white">
               24/7 Mobile Tyre Fitting in <span className="text-secondary-hover">Saddleworth</span>
             </h1>
-            <p className="text-lg text-secondary-hover max-w-2xl leading-relaxed">
+            <p className="text-lg text-white max-w-2xl leading-relaxed">
               Specialist mobile tyre support reaching remote moorland roads, high-altitude passes, secluded villages, and residential driveways across Saddleworth in <strong className="text-white font-semibold">25–40 minutes</strong>.
             </p>
             <div className="pt-1 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -243,7 +243,7 @@ export default function SaddleworthPage() {
             <h2 className="font-heading text-[30px] leading-[38px] md:text-[40px] md:leading-[48px] font-bold text-white">
               Complete Moorland &amp; Village Coverage
             </h2>
-            <p className="text-base text-secondary-hover leading-relaxed">
+            <p className="text-base text-white leading-relaxed">
               From valley basins to exposed Pennine heights, our mobile tyre vans are stationed for immediate deployment across every corner of Saddleworth and bordering Oldham links.
             </p>
           </div>
@@ -337,7 +337,7 @@ export default function SaddleworthPage() {
                 <h3 className="font-heading text-[22px] leading-[28px] md:text-[30px] md:leading-[38px] font-bold text-white">
                   Guaranteed Upfront Quotes. No Hidden Rural Callout Surprises.
                 </h3>
-                <p className="text-base text-secondary-hover max-w-2xl leading-relaxed">
+                <p className="text-base text-white max-w-2xl leading-relaxed">
                   Whether you are stranded on the high moors or parked on a quiet village lane in Dobcross, we quote a comprehensive, fixed price before dispatch. Every quote covers fitting, mobile valve replacement, digital electronic balancing, environmental casing disposal, and VAT.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-1 text-sm text-white">
@@ -429,7 +429,7 @@ export default function SaddleworthPage() {
           <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] font-bold text-white max-w-3xl mx-auto">
             Stuck with a tyre on the moors in Saddleworth? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mt-2 leading-relaxed">
+          <p className="text-lg text-white max-w-2xl mx-auto mt-2 leading-relaxed">
             Isolated lane, farm track, or high pass — our all-terrain vans reach where standard recovery can&rsquo;t.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

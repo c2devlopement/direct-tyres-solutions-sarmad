@@ -104,7 +104,7 @@ export default function RochdalePage() {
                 <div className="flex items-center justify-between text-left">
                   <div>
                     <p className="text-[18px] leading-[24px] text-white font-bold leading-tight">Milnrow / A58 Cut</p>
-                    <p className="text-sm text-secondary-hover">En route to sudden flat repair</p>
+                    <p className="text-sm text-white">En route to sudden flat repair</p>
                   </div>
                   <div className="text-right">
                     <span className="text-[22px] leading-[28px] text-secondary font-bold">24m</span>

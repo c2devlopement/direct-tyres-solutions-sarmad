@@ -197,7 +197,7 @@ export default function CheethamHillPage() {
                 <span className="text-[11px] font-bold uppercase">20–35 Min Window</span>
               </div>
               <h3 className="font-heading text-[22px] leading-[28px] font-bold text-white">Local Van Dispatched</h3>
-              <p className="mt-2 text-sm text-secondary-hover leading-relaxed">Our nearest mobile fitting van routes directly to your vehicle with the exact tyre dimensions and industrial tools on board.</p>
+              <p className="mt-2 text-sm text-white leading-relaxed">Our nearest mobile fitting van routes directly to your vehicle with the exact tyre dimensions and industrial tools on board.</p>
             </div>
             <div className="p-8 rounded-2xl bg-primary/60 border border-white/10 shadow-md flex flex-col">
               <div className="flex items-center justify-between mb-6">
@@ -218,7 +218,7 @@ export default function CheethamHillPage() {
             <div className="max-w-lg">
               <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em]">Immediate Radial Coverage</span>
               <h2 className="font-heading mt-1 text-[30px] leading-[38px] font-bold text-white">Serving Cheetham Hill &amp; Neighbouring Postcodes</h2>
-              <p className="mt-2 text-sm text-secondary-hover">Live vans circulating north Manchester arterial paths ensure guaranteed sub-40 min times across contiguous areas.</p>
+              <p className="mt-2 text-sm text-white">Live vans circulating north Manchester arterial paths ensure guaranteed sub-40 min times across contiguous areas.</p>
             </div>
             <div className="flex flex-wrap gap-3 items-center">
               {[
@@ -286,7 +286,7 @@ export default function CheethamHillPage() {
                 <h2 className="font-heading mt-2 text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white">
                   Get an instant estimate for tyre fitting in Cheetham Hill
                 </h2>
-                <p className="mt-2 text-base text-secondary-hover max-w-xl">
+                <p className="mt-2 text-base text-white max-w-xl">
                   From emergency single-tyre swaps to complete fleet replacements. All quotes include mobile call-out, laser balancing, new rubber valves, and disposal.
                 </p>
               </div>
@@ -376,7 +376,7 @@ export default function CheethamHillPage() {
           <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white max-w-3xl">
             Stuck with a tyre in Cheetham Hill? We&rsquo;re on our way.
           </h2>
-          <p className="mt-4 text-lg text-secondary-hover max-w-xl">
+          <p className="mt-4 text-lg text-white max-w-xl">
             Roadside blowout, puncture, or replacement on your driveway — call our 24/7 dispatch desk right now.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">

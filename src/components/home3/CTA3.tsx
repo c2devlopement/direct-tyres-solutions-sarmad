@@ -59,7 +59,7 @@ export default function CTA3() {
                 </span>
                 <div>
                   <h2 className="text-2xl md:text-3xl font-black text-white">Need Help Now?</h2>
-                  <p className="text-secondary font-bold text-lg">We&apos;re Ready 24/7</p>
+                  <p className="text-white font-bold text-lg">We&apos;re Ready 24/7</p>
                   <p className="text-white/80 text-sm mt-1 max-w-md">
                     Fast response, expert service, wherever you are in the UK.
                   </p>

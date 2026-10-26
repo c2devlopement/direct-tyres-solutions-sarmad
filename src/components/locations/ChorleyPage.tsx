@@ -284,7 +284,7 @@ export default function ChorleyPage() {
       <span className="text-[11px] leading-[14px] tracking-[0.06em] font-bold">Your Location Shared</span>
       </div>
       <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-primary-dark/90 backdrop-blur-md">
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-secondary mb-0.5">Fully Outfitted Rapid Interceptor Van</p>
+      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white mb-0.5">Fully Outfitted Rapid Interceptor Van</p>
       <p className="text-[13px] leading-[18px] text-gray-400">Includes computerized bead-breaking, electronic wheel balancing, and air-tank refills.</p>
       </div>
       </div>

@@ -52,7 +52,7 @@ export default function GortonPage() {
             <h1 className="font-heading uppercase text-[28px] leading-[36px] sm:text-[36px] sm:leading-[44px] font-bold tracking-tight mb-2">
               24/7 Mobile Tyre Fitting in <span className="text-secondary">Gorton</span>
             </h1>
-            <p className="text-base text-secondary-hover mb-6 max-w-xl">
+            <p className="text-base text-white mb-6 max-w-xl">
               Fast roadside &amp; doorstep mobile tyre replacement across Gorton — average arrival in <strong className="text-secondary font-semibold">20–35 minutes</strong>.
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -194,7 +194,7 @@ export default function GortonPage() {
             <div className="max-w-xl">
               <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">East Manchester Operational Hub</span>
               <h2 className="font-heading text-[22px] leading-[28px] font-bold text-white mt-1">Serving Gorton &amp; Adjacent Districts Daily</h2>
-              <p className="text-sm text-secondary-hover mt-1">Vans circulate through arterial intersections ready to divert to your emergency roadside pin within moments.</p>
+              <p className="text-sm text-white mt-1">Vans circulate through arterial intersections ready to divert to your emergency roadside pin within moments.</p>
             </div>
             <div className="flex flex-wrap gap-2.5">
               {["Longsight", "Belle Vue", "Openshaw", "Denton"].map((a) => (
@@ -248,7 +248,7 @@ export default function GortonPage() {
           <div className="flex flex-col gap-2 max-w-xl text-center md:text-left">
             <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">Transparent Upfront Pricing</span>
             <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Get an instant estimate for tyre fitting in Gorton</h2>
-            <p className="text-base text-secondary-hover">Zero hidden mobile callout fees. Our quote covers the tyre, valve, balancing, roadside fitting, and environmental tyre disposal.</p>
+            <p className="text-base text-white">Zero hidden mobile callout fees. Our quote covers the tyre, valve, balancing, roadside fitting, and environmental tyre disposal.</p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full sm:w-auto">
             <a className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold transition-all shadow-md" href="tel:07955266077">
@@ -344,7 +344,7 @@ export default function GortonPage() {
           <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] font-bold tracking-tight max-w-3xl mb-2">
             Stuck with a tyre in Gorton? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-xl mb-8">
+          <p className="text-lg text-white max-w-xl mb-8">
             Don&rsquo;t wait hours for a tow truck. Call our direct dispatch phone now for guaranteed rapid mobile tyre repair or replacement.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">

@@ -239,7 +239,7 @@ export default function AncoatsPage() {
               <h3 className="font-heading text-[30px] leading-[38px] font-bold text-white">
                 Dedicated Urban Hubs Connected to Ancoats
               </h3>
-              <p className="text-sm text-secondary-hover mt-1">
+              <p className="text-sm text-white mt-1">
                 Our strategic positioning near Great Ancoats Street ensures lightning-fast technician transit across East Manchester and central residential rings.
               </p>
             </div>
@@ -430,7 +430,7 @@ export default function AncoatsPage() {
           <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] text-white mb-4 max-w-3xl mx-auto">
             Stuck with a tyre in Ancoats? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-xl mx-auto mb-8">
+          <p className="text-lg text-white max-w-xl mx-auto mb-8">
             Don&rsquo;t damage your alloy wheels by limping down Great Ancoats Street. Call our emergency response desk now for guaranteed 20–35 minute curbside fitting.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">

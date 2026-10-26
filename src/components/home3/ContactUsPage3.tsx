@@ -223,7 +223,7 @@ export default function ContactUsPage3() {
                   {status === "submitting" ? "Sending..." : "Request Callback"}
                 </button>
                 {status === "success" && (
-                  <p className="text-secondary text-sm font-semibold">
+                  <p className="text-white text-sm font-semibold">
                     Thanks! We&apos;ve received your request and will be in
                     touch shortly.
                   </p>

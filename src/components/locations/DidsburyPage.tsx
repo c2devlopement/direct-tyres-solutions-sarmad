@@ -315,7 +315,7 @@ export default function DidsburyPage() {
                 <h2 className="font-heading text-[40px] leading-[48px] text-white font-bold tracking-tight">
                   Get an instant estimate for tyre fitting in Didsbury
                 </h2>
-                <p className="text-lg text-secondary-hover max-w-2xl leading-relaxed">
+                <p className="text-lg text-white max-w-2xl leading-relaxed">
                   No hidden roadside callout fees. Mobile fitting, digital balancing, new valves, and environmental disposal of old tyres are all included in one upfront quote.
                 </p>
               </div>
@@ -387,7 +387,7 @@ export default function DidsburyPage() {
           <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] font-bold tracking-tight text-white max-w-3xl mx-auto">
             Stuck with a tyre in Didsbury? <span className="text-secondary">We&rsquo;re on our way.</span>
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mt-4 mb-8">
+          <p className="text-lg text-white max-w-2xl mx-auto mt-4 mb-8">
             Roadside blowout, puncture, or driveway replacement — call our 24/7 dispatch desk right now.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -36,15 +36,15 @@ export default function BlackburnPage() {
       {/* Quick trust metrics */}
       <div className="grid grid-cols-3 gap-4 pt-10 mt-10 w-full bg-primary-dark/40 rounded-2xl p-4">
       <div>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-secondary font-black">25–40m</p>
+      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-black">25–40m</p>
       <p className="text-[13px] leading-[18px] text-white/70">M65 Corridor ETA</p>
       </div>
       <div>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-secondary font-black">24/7/365</p>
+      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-black">24/7/365</p>
       <p className="text-[13px] leading-[18px] text-white/70">Night &amp; Day Shift</p>
       </div>
       <div>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-secondary font-black">BS AU 159</p>
+      <p className="font-heading text-[20px] leading-[26px] font-bold text-white font-black">BS AU 159</p>
       <p className="text-[13px] leading-[18px] text-white/70">Certified Repairs</p>
       </div>
       </div>
@@ -325,7 +325,7 @@ export default function BlackburnPage() {
       </div>
       <div>
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold uppercase text-white/60">Response Time</p>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-secondary">23 Minutes</p>
+      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">23 Minutes</p>
       </div>
       <div>
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold uppercase text-white/60">Fitment Type</p>

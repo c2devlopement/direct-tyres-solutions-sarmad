@@ -49,7 +49,7 @@ export default function BlackleyPage() {
                 <h1 className="font-heading uppercase text-[36px] leading-[44px] lg:text-[54px] lg:leading-[62px] font-extrabold tracking-tight text-white">
                   24/7 Mobile Tyre Fitting in <span className="text-secondary">Blackley</span>
                 </h1>
-                <p className="text-lg text-secondary-hover max-w-xl leading-relaxed">
+                <p className="text-lg text-white max-w-xl leading-relaxed">
                   Emergency roadside &amp; doorstep mobile tyre replacement across Blackley within 20–35 minutes. Rapid roadside vans equipped for all passenger and fleet tyres.
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function BlackleyPage() {
                     </div>
                     <div>
                       <p className="text-sm font-bold text-white">Unit 4 Active in M9</p>
-                      <p className="text-[11px] text-secondary-hover">Patrolling Victoria Ave Corridor</p>
+                      <p className="text-[11px] text-white">Patrolling Victoria Ave Corridor</p>
                     </div>
                   </div>
                   <span className="px-2.5 py-1 rounded-md bg-secondary-hover text-primary-dark text-[11px] font-bold uppercase tracking-wider">Dispatched</span>
@@ -280,7 +280,7 @@ export default function BlackleyPage() {
             <div className="flex flex-col gap-2 max-w-xl">
               <span className="text-[11px] font-bold uppercase tracking-widest text-secondary">Live Sector Coverage</span>
               <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Active Mobile Fleet Covering Blackley &amp; Surrounds</h2>
-              <p className="text-sm text-secondary-hover leading-relaxed">Our multi-van fleet continuously patrols the North Manchester orbital network, enabling unmatched under-35 minute dispatch response times.</p>
+              <p className="text-sm text-white leading-relaxed">Our multi-van fleet continuously patrols the North Manchester orbital network, enabling unmatched under-35 minute dispatch response times.</p>
             </div>
             <div className="flex flex-wrap items-center gap-3">
               {["Cheetham Hill", "Moston", "Middleton"].map((a) => (
@@ -353,7 +353,7 @@ export default function BlackleyPage() {
                 <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white">
                   Get an instant estimate for tyre fitting in Blackley
                 </h2>
-                <p className="text-base text-secondary-hover max-w-lg leading-relaxed">
+                <p className="text-base text-white max-w-lg leading-relaxed">
                   Transparent roadside pricing. Call our dispatcher with your vehicle registration or tyre size below to receive guaranteed upfront pricing before technician dispatch.
                 </p>
               </div>
@@ -438,7 +438,7 @@ export default function BlackleyPage() {
           <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white max-w-3xl mx-auto">
             Stuck with a flat tyre in Blackley? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mt-2 leading-relaxed">
+          <p className="text-lg text-white max-w-2xl mx-auto mt-2 leading-relaxed">
             Don&rsquo;t let a flat tyre strand you on Rochdale Road or trap your car on your driveway. Call our rapid roadside squad now for immediate dispatch.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

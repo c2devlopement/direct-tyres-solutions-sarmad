@@ -67,7 +67,7 @@ export default function DentonPage() {
       {/* Tactical Overlay Strip */}
       <div className="relative z-10 p-6 sm:p-8 flex flex-wrap items-center justify-between gap-4">
       <div className="bg-primary/90 backdrop-blur-md px-4 py-3 rounded-xl">
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-secondary uppercase tracking-wider">SK14 Service Van Status</p>
+      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-white uppercase tracking-wider">SK14 Service Van Status</p>
       <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">Live Dispatched: Mottram Rd &amp; M60 Corridor</p>
       </div>
       <div className="flex items-center gap-2 bg-accent text-white px-4 py-3 rounded-xl text-[14px] leading-[18px] tracking-[0.02em] font-semibold shadow-lg">
@@ -297,7 +297,7 @@ export default function DentonPage() {
       <h3 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white uppercase mb-2">
                       Nissan Qashqai — Mottram Road, Denton
                     </h3>
-      <p className="text-secondary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold mb-6">
+      <p className="text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold mb-6">
                       Pothole rim pinch &amp; blowout • 215/55 R18 fitted and laser balanced in 29 mins
                     </p>
       <div className="bg-primary-dark p-5 rounded-xl space-y-3 mb-6">

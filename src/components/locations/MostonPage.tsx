@@ -136,7 +136,7 @@ export default function MostonPage() {
                   </div>
                   <div>
                     <h4 className="text-[18px] leading-[24px] font-bold">Full Mobile Bay On-Board</h4>
-                    <p className="text-sm text-secondary-hover">Corghi tyre changers, high-speed balancers, and run-flat capable bead breakers.</p>
+                    <p className="text-sm text-white">Corghi tyre changers, high-speed balancers, and run-flat capable bead breakers.</p>
                   </div>
                 </div>
               </div>
@@ -249,7 +249,7 @@ export default function MostonPage() {
             <div className="max-w-xl">
               <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">North Manchester Operational Grid</span>
               <h2 className="font-heading text-[22px] leading-[28px] font-bold text-white mt-1">Serving Moston &amp; Neighbouring Wards</h2>
-              <p className="text-sm text-secondary-hover mt-1">Vans continuously patrol the M60 outer ring to guarantee sub-35 minute callouts across bordering districts.</p>
+              <p className="text-sm text-white mt-1">Vans continuously patrol the M60 outer ring to guarantee sub-35 minute callouts across bordering districts.</p>
             </div>
             <div className="flex flex-wrap gap-2.5">
               {["Blackley", "Newton Heath", "Failsworth", "Harpurhey"].map((a) => (
@@ -303,7 +303,7 @@ export default function MostonPage() {
               <div className="flex flex-col gap-2 max-w-xl">
                 <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">Transparent Upfront Pricing</span>
                 <h2 className="font-heading text-[28px] leading-[36px] md:text-[30px] md:leading-[38px] font-bold text-white">Get an instant estimate for tyre fitting in Moston</h2>
-                <p className="text-base text-secondary-hover">No hidden fees. Every quote includes callout, fitting, digital balancing, new valve, and eco disposal of your old tyre.</p>
+                <p className="text-base text-white">No hidden fees. Every quote includes callout, fitting, digital balancing, new valve, and eco disposal of your old tyre.</p>
               </div>
               <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full md:w-auto">
                 <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-lg transition-all" href="tel:07955266077">
@@ -372,7 +372,7 @@ export default function MostonPage() {
           <h2 className="font-heading text-[28px] leading-[36px] sm:text-[40px] sm:leading-[48px] font-bold text-white max-w-3xl mx-auto">
             Stuck with a flat tyre in Moston? We&rsquo;re on our way.
           </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mt-2 mb-8 leading-relaxed">
+          <p className="text-lg text-white max-w-2xl mx-auto mt-2 mb-8 leading-relaxed">
             Don&rsquo;t wait for a recovery truck. Call our rapid roadside squad now for immediate dispatch to your home, driveway, or roadside.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

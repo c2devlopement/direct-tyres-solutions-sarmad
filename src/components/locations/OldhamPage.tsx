@@ -16,7 +16,6 @@ import {
   Zap,
   ChevronDown,
 } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
 import HeroTeaserCard from "@/components/HeroTeaserCard";
 
@@ -487,7 +486,6 @@ export default function OldhamPage() {
           </div>
         </div>
       </section>
-      <LocationMap areaLabel="Oldham" />
     </main>
   );
 }

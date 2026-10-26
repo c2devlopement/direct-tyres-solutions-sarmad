@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { CheckCircle2, ChevronDown, Clock, Gauge, MapPin, MessageCircle, Navigation, PhoneCall, ShieldCheck, Siren, Star, Truck } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
 import HeroTeaserCard from "@/components/HeroTeaserCard";
 
@@ -432,7 +431,6 @@ export default function UrmstonPage() {
       </div>
       </section>
       </div>
-      <LocationMap areaLabel="Urmston" />
     </main>
   );
 }

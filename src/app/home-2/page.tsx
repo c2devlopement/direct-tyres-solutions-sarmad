@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: "Rapid Response Tyres | 24/7 Mobile Tyre Fitting",
   description:
     "Fast, professional mobile tyre assistance near you. We bring the garage to your location, day or night, across the North West.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function Page() {

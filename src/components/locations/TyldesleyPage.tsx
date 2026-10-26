@@ -38,7 +38,7 @@ export default function TyldesleyPage() {
       <PhoneCall className="h-[22px] w-[22px]" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all shadow-md" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all shadow-md" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px] text-accent" />
                 WhatsApp Rapid Quote
               </a>

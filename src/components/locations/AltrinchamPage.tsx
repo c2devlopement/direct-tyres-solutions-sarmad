@@ -27,7 +27,7 @@ export default function AltrinchamPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-full bg-white/5 border border-white/20 text-white font-semibold text-base hover:bg-white/10 transition-all" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-full bg-white/5 border border-white/20 text-white font-semibold text-base hover:bg-white/10 transition-all" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[20px] w-[20px] text-green-500" />
       <span>WhatsApp Dispatch</span>
       </a>

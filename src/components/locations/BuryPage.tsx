@@ -26,7 +26,7 @@ export default function BuryPage() {
       <PhoneCall className="text-[20px] leading-[26px] font-bold h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center gap-3 bg-primary/80 hover:bg-primary-light text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-4 rounded-full transition-colors" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center gap-3 bg-primary/80 hover:bg-primary-light text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-4 rounded-full transition-colors" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Us</span>
       </a>

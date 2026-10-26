@@ -34,7 +34,7 @@ export default function HolmesChapelPage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white transition-all active:scale-95" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white transition-all active:scale-95" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px]" />
                 WhatsApp Us
               </a>

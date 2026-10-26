@@ -32,7 +32,7 @@ export default function DukinfieldPage() {
       <PhoneCall className="h-[24px] w-[24px]" />
                   Call 07955 266 077
                 </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold shadow-md hover:bg-primary-light active:scale-95 transition-all duration-200" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold shadow-md hover:bg-primary-light active:scale-95 transition-all duration-200" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-[22px] w-[22px]" />
                   WhatsApp Dispatch
                 </a>

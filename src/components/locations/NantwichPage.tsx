@@ -38,7 +38,7 @@ export default function NantwichPage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-accent/90 active:scale-95 transition shadow-md" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-accent/90 active:scale-95 transition shadow-md" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[20px] w-[20px]" />
                 WhatsApp Dispatch
               </a>
@@ -531,7 +531,7 @@ export default function NantwichPage() {
       <PhoneCall className="h-[24px] w-[24px]" fill="currentColor" strokeWidth={0} />
                     Call 07955 266 077
                   </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition text-center" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition text-center" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-gray-400 h-[20px] w-[20px]" />
                     WhatsApp Live Dispatch
                   </a>

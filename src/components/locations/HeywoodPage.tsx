@@ -32,7 +32,7 @@ export default function HeywoodPage() {
       <PhoneCall className="h-[24px] w-[24px]" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center gap-3 rounded-full bg-primary/80 px-8 py-4 text-[16px] leading-[22px] tracking-[0.01em] font-bold font-heading uppercase text-white shadow-lg hover:bg-primary transition-all" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center gap-3 rounded-full bg-primary/80 px-8 py-4 text-[16px] leading-[22px] tracking-[0.01em] font-bold font-heading uppercase text-white shadow-lg hover:bg-primary transition-all" href="https://wa.me/447955266077">
       <MessageCircle className="h-[24px] w-[24px] text-accent" />
       <span>WhatsApp Fitter</span>
       </a>

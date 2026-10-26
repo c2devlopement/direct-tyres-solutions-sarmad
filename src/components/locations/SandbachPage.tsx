@@ -30,7 +30,7 @@ export default function SandbachPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto px-space-lg py-3.5 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider flex items-center justify-center gap-space-xs hover:bg-primary-light active:scale-95 transition-all shadow-md" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto px-space-lg py-3.5 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider flex items-center justify-center gap-space-xs hover:bg-primary-light active:scale-95 transition-all shadow-md" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px] text-accent" />
       <span>WhatsApp Dispatch</span>
       </a>

@@ -50,7 +50,7 @@ export default function NelsonPage() {
       <PhoneCall className="text-primary h-6 w-6 group-hover:rotate-12 transition-transform" />
       <span>CALL 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-space-xs bg-primary/80 hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full shadow-sm transition-colors" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-space-xs bg-primary/80 hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full shadow-sm transition-colors" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Technician</span>
       </a>
@@ -461,7 +461,7 @@ export default function NelsonPage() {
       <PhoneCall className="text-primary h-6 w-6" />
       <span>07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full transition-colors" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-space-xs bg-primary hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full transition-colors" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp</span>
       </a>

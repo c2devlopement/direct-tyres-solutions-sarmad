@@ -29,7 +29,7 @@ export default function MilnrowPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
                   Call 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-2 rounded-full bg-primary hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold py-3 px-5 transition duration-200" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 rounded-full bg-primary hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold py-3 px-5 transition duration-200" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px] text-accent" />
                   WhatsApp
                 </a>
@@ -519,7 +519,7 @@ export default function MilnrowPage() {
       <PhoneCall className="h-[24px] w-[24px]" />
                   Call Milnrow 24/7 Fitter: 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-2 rounded-full bg-primary-dark hover:bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold py-4 px-8 transition duration-200" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 rounded-full bg-primary-dark hover:bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold py-4 px-8 transition duration-200" href="https://wa.me/447955266077">
       <MessageCircle className="h-[22px] w-[22px] text-accent" />
                   WhatsApp Controller
                 </a>

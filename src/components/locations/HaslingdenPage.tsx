@@ -53,7 +53,7 @@ export default function HaslingdenPage() {
       <PhoneCall className="font-black h-5 w-5 transition-transform group-hover:rotate-12" />
       <span className="font-extrabold text-lg">07955 266 077</span>
       </a>
-      <a className="flex items-center justify-center gap-2.5 w-full py-3.5 px-6 rounded-full bg-primary-light/70 text-white hover:bg-primary-light transition-colors duration-200 font-semibold" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="flex items-center justify-center gap-2.5 w-full py-3.5 px-6 rounded-full bg-primary-light/70 text-white hover:bg-primary-light transition-colors duration-200 font-semibold" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-secondary h-5 w-5" />
       <span>WhatsApp Live Location</span>
       </a>
@@ -505,7 +505,7 @@ export default function HaslingdenPage() {
       <span className="block font-heading text-2xl sm:text-3xl font-black leading-none">07955 266 077</span>
       </div>
       </a>
-      <a className="inline-flex items-center justify-center gap-3 py-4 px-8 rounded-full bg-primary/80 text-white font-bold hover:bg-primary-light transition-colors shadow-lg" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-3 py-4 px-8 rounded-full bg-primary/80 text-white font-bold hover:bg-primary-light transition-colors shadow-lg" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-secondary h-5 w-5" />
       <span>Send Location via WhatsApp</span>
       </a>

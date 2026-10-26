@@ -36,7 +36,7 @@ export default function WidnesPage() {
       <PhoneCall className="h-5 w-5 group-hover:rotate-12 transition-transform" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-8 py-4 rounded-full bg-primary/80 text-white hover:bg-primary transition-all duration-200 backdrop-blur-md shadow-sm" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-8 py-4 rounded-full bg-primary/80 text-white hover:bg-primary transition-all duration-200 backdrop-blur-md shadow-sm" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-5 w-5 text-accent" />
       <span>Message on WhatsApp</span>
       </a>
@@ -382,7 +382,7 @@ export default function WidnesPage() {
       <span className="font-heading text-white block">Need a Quote?</span>
       <span className="text-[13px] leading-[18px] text-gray-400">Send a tyre size photo</span>
       </div>
-      <a className="px-4 py-2 rounded-full bg-accent text-white text-[11px] leading-[14px] tracking-[0.06em] font-bold hover:opacity-90 transition-opacity" href="https://wa.me/448009992470">
+      <a className="px-4 py-2 rounded-full bg-accent text-white text-[11px] leading-[14px] tracking-[0.06em] font-bold hover:opacity-90 transition-opacity" href="https://wa.me/447955266077">
                     WhatsApp
                   </a>
       </div>

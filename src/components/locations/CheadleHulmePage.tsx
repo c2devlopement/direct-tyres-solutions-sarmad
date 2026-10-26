@@ -30,7 +30,7 @@ export default function CheadleHulmePage() {
       <PhoneCall className="text-primary group-hover:animate-bounce h-5 w-5" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all duration-200 shadow-lg active:scale-95 backdrop-blur-md" href="https://wa.me/448009992470?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Knutsford" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all duration-200 shadow-lg active:scale-95 backdrop-blur-md" href="https://wa.me/447955266077?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Knutsford" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-secondary h-5 w-5" />
                 WhatsApp Dispatch
               </a>
@@ -443,7 +443,7 @@ export default function CheadleHulmePage() {
       <PhoneCall className="text-primary group-hover:animate-bounce h-5 w-5" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all duration-200 shadow-lg active:scale-95" href="https://wa.me/448009992470?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Knutsford" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all duration-200 shadow-lg active:scale-95" href="https://wa.me/447955266077?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Knutsford" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-secondary h-5 w-5" />
                   WhatsApp Dispatch
                 </a>

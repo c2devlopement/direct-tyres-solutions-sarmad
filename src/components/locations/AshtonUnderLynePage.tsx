@@ -32,7 +32,7 @@ export default function AshtonUnderLynePage() {
       <PhoneCall className="font-bold h-5 w-5" />
                 Call 07955 266 077
               </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/90 hover:bg-primary-light text-white font-heading text-[20px] leading-[26px] font-bold backdrop-blur-md transition-all duration-200" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/90 hover:bg-primary-light text-white font-heading text-[20px] leading-[26px] font-bold backdrop-blur-md transition-all duration-200" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
                 WhatsApp Dispatch
               </a>
@@ -369,7 +369,7 @@ export default function AshtonUnderLynePage() {
       <PhoneCall className="text-secondary h-5 w-5" />
                 Call 07955 266 077
               </a>
-      <a className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white hover:bg-slate-100 text-primary font-heading text-[20px] leading-[26px] font-bold shadow-md transition-all" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white hover:bg-slate-100 text-primary font-heading text-[20px] leading-[26px] font-bold shadow-md transition-all" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
                 Get Instant WhatsApp Quote
               </a>

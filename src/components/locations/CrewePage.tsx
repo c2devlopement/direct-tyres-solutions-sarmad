@@ -31,7 +31,7 @@ export default function CrewePage() {
       <PhoneCall className="text-primary font-bold h-5 w-5" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/60 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-semibold hover:bg-primary-light transition-all duration-150" href="https://wa.me/448009992470?text=Emergency%20tyre%20fitting%20dispatch%20Crewe" rel="noopener" target="_blank">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/60 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-semibold hover:bg-primary-light transition-all duration-150" href="https://wa.me/447955266077?text=Emergency%20tyre%20fitting%20dispatch%20Crewe" rel="noopener" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>
@@ -451,7 +451,7 @@ export default function CrewePage() {
       <PhoneCall className="font-black h-5 w-5" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-5 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-semibold hover:bg-primary-light transition-colors" href="https://wa.me/448009992470?text=I%20need%20a%20mobile%20tyre%20fitting%20in%20Crewe" rel="noopener" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-5 rounded-full bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-semibold hover:bg-primary-light transition-colors" href="https://wa.me/447955266077?text=I%20need%20a%20mobile%20tyre%20fitting%20in%20Crewe" rel="noopener" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>Send Location on WhatsApp</span>
       </a>

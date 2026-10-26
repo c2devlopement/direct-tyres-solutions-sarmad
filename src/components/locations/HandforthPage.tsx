@@ -27,7 +27,7 @@ export default function HandforthPage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all duration-200 shadow-sm active:scale-95" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all duration-200 shadow-sm active:scale-95" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px] text-accent" />
       <span>WhatsApp Dispatch</span>
       </a>
@@ -389,7 +389,7 @@ export default function HandforthPage() {
       <PhoneCall className="h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all duration-200 active:scale-95" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all duration-200 active:scale-95" href="https://wa.me/447955266077">
       <span>Message on WhatsApp</span>
       </a>
       </div>

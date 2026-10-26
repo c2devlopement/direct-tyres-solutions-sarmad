@@ -37,7 +37,7 @@ export default function WakefieldPage() {
       <PhoneCall className="text-primary h-5 w-5" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary-light active:scale-95 transition-all" href="https://wa.me/447700123456">
+      <a className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary-light active:scale-95 transition-all" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
                   WhatsApp Technician
                 </a>
@@ -460,7 +460,7 @@ export default function WakefieldPage() {
       <PhoneCall className="text-secondary h-5 w-5" fill="currentColor" strokeWidth={0} />
                   07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary-dark/10 text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary-dark/20 transition-all" href="https://wa.me/447700123456">
+      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary-dark/10 text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary-dark/20 transition-all" href="https://wa.me/447955266077">
                   WhatsApp Live Support
                 </a>
       </div>

@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Tyre Assist 24/7",
   tagline: "Mobile Tyre Fitting Excellence",
-  phone: "0800 123 4567",
-  email: "info@tyreassist247.co.uk",
+  phone: "07955 266 077",
+  email: "info@directtyresolutions.co.uk",
 };
 
 export const heroFleetImage = "/hero-section-images-936x527.webp";

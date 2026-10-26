@@ -27,7 +27,7 @@ export default function PrestwichPage() {
       <PhoneCall className="text-primary h-5 w-5" />
                   Call 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all shadow-md" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all shadow-md" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
                   WhatsApp Booking
                 </a>

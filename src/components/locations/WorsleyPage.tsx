@@ -50,7 +50,7 @@ export default function WorsleyPage() {
       <PhoneCall className="h-6 w-6 group-hover:rotate-12 transition-transform" />
                   Call 07955 266 077
                 </a>
-      <a className="w-full inline-flex items-center justify-center gap-2 py-3 px-6 rounded-full bg-primary/80 hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all active:scale-95" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="w-full inline-flex items-center justify-center gap-2 py-3 px-6 rounded-full bg-primary/80 hover:bg-primary-light text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all active:scale-95" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-gray-400 h-[18px] w-[18px]" />
                   WhatsApp Dispatch
                 </a>

@@ -35,7 +35,7 @@ export default function WarringtonPage() {
       <PhoneCall className="font-bold text-[20px] leading-[26px] font-bold h-5 w-5" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/60 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider border border-white/10 hover:bg-primary hover:border-white/30 active:scale-95 transition" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/60 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider border border-white/10 hover:bg-primary hover:border-white/30 active:scale-95 transition" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-gray-400 h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>
@@ -544,7 +544,7 @@ export default function WarringtonPage() {
       <PhoneCall className="text-[20px] leading-[26px] font-bold h-5 w-5" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary-dark/10 text-primary-dark border border-primary-dark/30 text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider font-bold hover:bg-primary-dark/20 active:scale-95 transition" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary-dark/10 text-primary-dark border border-primary-dark/30 text-[14px] leading-[18px] tracking-[0.02em] font-semibold uppercase tracking-wider font-bold hover:bg-primary-dark/20 active:scale-95 transition" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-5 w-5" />
       <span>WhatsApp</span>
       </a>

@@ -27,7 +27,7 @@ export default function BoltonPage() {
       <PhoneCall className="h-[22px] w-[22px]" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-bold px-8 py-4 rounded-full transition-all duration-200" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-bold px-8 py-4 rounded-full transition-all duration-200" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[22px] w-[22px]" />
       <span>WhatsApp</span>
       </a>
@@ -48,7 +48,7 @@ export default function BoltonPage() {
       </div>
       </div>
       {/* Right Column: Clean Photographic Reality (Split) */}
-      <div className="relative lg:col-span-6 overflow-hidden rounded-2xl shadow-2xl">
+      <div className="relative lg:col-span-6 overflow-hidden rounded-2xl shadow-2xl h-[400px] lg:h-[480px]">
       <Image src="/hero-section-images-936x527.webp" alt="Close-up action shot of an automotive mobile tyre technician in hi-vis vest using an impact wrench to change an alloy wheel tyre on a car driveway, UK setting, realistic industrial photography." fill sizes="(max-width: 1024px) 100vw, 50vw" className="w-full h-[400px] lg:h-[480px] object-cover object-center" />
       </div>
       </div>
@@ -487,7 +487,7 @@ export default function BoltonPage() {
       <PhoneCall className="h-[24px] w-[24px]" />
                   Call Bolton Fitter 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-black/10 text-primary border-2 border-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-bold px-8 py-3.5 rounded-full transition duration-150" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-black/10 text-primary border-2 border-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold font-bold px-8 py-3.5 rounded-full transition duration-150" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[22px] w-[22px]" />
                   Send WhatsApp Message
                 </a>

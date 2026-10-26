@@ -29,7 +29,7 @@ export default function MiddletonPage() {
       <PhoneCall className="text-primary group-hover:rotate-12 transition-transform h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center gap-3 bg-primary hover:bg-primary-light text-white px-7 py-4 rounded-full text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all active:scale-95 shadow-md" href="https://wa.me/448009992470" rel="noopener" target="_blank">
+      <a className="inline-flex items-center gap-3 bg-primary hover:bg-primary-light text-white px-7 py-4 rounded-full text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all active:scale-95 shadow-md" href="https://wa.me/447955266077" rel="noopener" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Rapid Quote</span>
       </a>

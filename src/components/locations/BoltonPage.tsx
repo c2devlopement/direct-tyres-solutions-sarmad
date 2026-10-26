@@ -48,7 +48,7 @@ export default function BoltonPage() {
       </div>
       </div>
       {/* Right Column: Clean Photographic Reality (Split) */}
-      <div className="relative lg:col-span-6 overflow-hidden rounded-2xl shadow-2xl">
+      <div className="relative lg:col-span-6 overflow-hidden rounded-2xl shadow-2xl h-[400px] lg:h-[480px]">
       <Image src="/hero-section-images-936x527.webp" alt="Close-up action shot of an automotive mobile tyre technician in hi-vis vest using an impact wrench to change an alloy wheel tyre on a car driveway, UK setting, realistic industrial photography." fill sizes="(max-width: 1024px) 100vw, 50vw" className="w-full h-[400px] lg:h-[480px] object-cover object-center" />
       </div>
       </div>

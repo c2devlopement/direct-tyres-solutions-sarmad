@@ -6,13 +6,13 @@ export default function LocationMap({ areaLabel }: LocationMapProps) {
   const query = encodeURIComponent(`${areaLabel}, UK`);
 
   return (
-    <section className="w-full bg-primary-dark py-12 px-4 md:px-8">
+    <section className="w-full bg-secondary py-12 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-6 text-center">
-          <span className="text-secondary font-bold tracking-[0.15em] uppercase text-sm mb-2 block">
+          <span className="text-primary font-bold tracking-[0.15em] uppercase text-sm mb-2 block">
             Service Area
           </span>
-          <h2 className="font-heading text-2xl md:text-3xl font-black text-white">
+          <h2 className="font-heading text-2xl md:text-3xl font-black text-primary">
             Where We Cover in {areaLabel}
           </h2>
         </div>

@@ -1,6 +1,6 @@
 export default function HeroTeaserCard() {
   return (
-    <section className="w-full bg-surface py-10 px-4 md:px-8">
+    <section className="w-full bg-secondary py-10 px-4 md:px-8">
       <div className="max-w-2xl mx-auto bg-primary rounded-3xl p-8 md:p-10 shadow-2xl">
         <h2 className="font-heading text-2xl md:text-3xl font-black text-white leading-tight">
           This Website&apos;s Boring. Our Job Isn&apos;t. 👀

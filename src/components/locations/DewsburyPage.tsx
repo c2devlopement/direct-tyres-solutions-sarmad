@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ArrowRight, ArrowUpRight, ChevronDown, MessageCircle, PhoneCall, ShieldCheck, Truck } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
 import HeroTeaserCard from "@/components/HeroTeaserCard";
 
@@ -471,7 +470,6 @@ export default function DewsburyPage() {
       {/* Interactive Accordion Handler */}
       
       </div>
-      <LocationMap areaLabel="Dewsbury" />
     </main>
   );
 }

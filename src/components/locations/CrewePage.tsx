@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { AlarmClockCheck, Clock, Headphones, KeyRound, MapPin, MessageCircle, Moon, PhoneCall, ShieldCheck, ShoppingCart, TrafficCone, TrainFront, Truck, Unlock, Warehouse, Wrench, Zap } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
 import HeroTeaserCard from "@/components/HeroTeaserCard";
 
@@ -463,7 +462,6 @@ export default function CrewePage() {
       </div>
       </div>
       </section>
-      <LocationMap areaLabel="Crewe" />
     </main>
   );
 }

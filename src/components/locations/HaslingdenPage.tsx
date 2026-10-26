@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, Gauge, MessageCircle, Mountain, PhoneCall, Radar, ShieldCheck, Timer, Truck, Unlock, Wrench } from "lucide-react";
-import LocationMap from "@/components/LocationMap";
 import LocationMapEmbed from "@/components/LocationMapEmbed";
 import HeroTeaserCard from "@/components/HeroTeaserCard";
 
@@ -518,7 +517,6 @@ export default function HaslingdenPage() {
       </div>
       </div>
       </section>
-      <LocationMap areaLabel="Haslingden" />
     </main>
   );
 }

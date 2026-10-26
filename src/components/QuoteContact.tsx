@@ -135,7 +135,7 @@ export default function QuoteContact() {
                   Send us a message with your tyre size for a quick quote.
                 </p>
                 <a
-                  href={`https://wa.me/${siteConfig.phone.replace(/\D/g, "")}`}
+                  href="https://wa.me/447955266077"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-secondary font-bold hover:text-white transition-colors text-sm inline-flex items-center"

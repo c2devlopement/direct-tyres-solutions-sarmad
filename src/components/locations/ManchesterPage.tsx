@@ -413,32 +413,34 @@ export default function ManchesterPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary text-white py-16 relative overflow-hidden">
+      <section className="w-full bg-secondary py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-white/10 text-secondary text-[11px] font-bold uppercase tracking-[0.06em] mb-4">
-            <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
-            Immediate 24/7 Mobile Assistance
-          </div>
-          <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] font-bold text-white mb-4 max-w-3xl mx-auto">
-            Stuck with a tyre in Manchester? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-white max-w-2xl mx-auto mb-8">
-            Don&rsquo;t risk driving on a flat across the city. Our nearest available technician can be with you in 20–35 minutes.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-2xl text-lg font-semibold"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6" />
-              <span>Call 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-semibold transition-colors"
-              href="/#contact"
-            >
-              Book Online Appointment
-            </Link>
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-white/10 text-secondary text-[11px] font-bold uppercase tracking-[0.06em] mb-4">
+              <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" />
+              Immediate 24/7 Mobile Assistance
+            </div>
+            <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] font-bold text-white mb-4 max-w-3xl mx-auto">
+              Stuck with a tyre in Manchester? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-2xl mx-auto mb-8">
+              Don&rsquo;t risk driving on a flat across the city. Our nearest available technician can be with you in 20–35 minutes.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-2xl text-lg font-semibold"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6" />
+                <span>Call 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-semibold transition-colors"
+                href="/#contact"
+              >
+                Book Online Appointment
+              </Link>
+            </div>
           </div>
         </div>
       </section>

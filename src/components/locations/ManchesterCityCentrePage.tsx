@@ -372,31 +372,33 @@ export default function ManchesterCityCentrePage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="bg-primary-dark text-white py-16 relative overflow-hidden">
+      <section className="bg-secondary py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary/20 text-secondary-hover mb-4">
-            <span className="text-[11px] font-bold uppercase tracking-[0.06em]">Immediate 24/7 Mobile Assistance</span>
-          </div>
-          <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] text-white mb-4 max-w-3xl mx-auto">
-            Stuck with a tyre in Manchester City Centre? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-white max-w-xl mx-auto mb-8">
-            Whether you&rsquo;re on Deansgate, in a Spinningfields basement, or on level 4 of an NCP, our low-clearance vans get to you fast.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-lg text-lg font-semibold"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 text-white hover:bg-white/20 transition-colors text-sm font-semibold"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
+          <div className="bg-primary-dark text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary/20 text-secondary-hover mb-4">
+              <span className="text-[11px] font-bold uppercase tracking-[0.06em]">Immediate 24/7 Mobile Assistance</span>
+            </div>
+            <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] text-white mb-4 max-w-3xl mx-auto">
+              Stuck with a tyre in Manchester City Centre? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-xl mx-auto mb-8">
+              Whether you&rsquo;re on Deansgate, in a Spinningfields basement, or on level 4 of an NCP, our low-clearance vans get to you fast.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-lg text-lg font-semibold"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 text-white hover:bg-white/20 transition-colors text-sm font-semibold"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
           </div>
         </div>
       </section>

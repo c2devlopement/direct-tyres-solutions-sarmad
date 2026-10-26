@@ -377,34 +377,36 @@ export default function RochdalePage() {
       </section>
 
       {/* 9. CLOSING CTA */}
-      <section className="w-full bg-primary text-white py-16 md:py-20 px-4 md:px-6 lg:px-8 shadow-2xl relative overflow-hidden">
-        <div className="max-w-7xl mx-auto text-center flex flex-col items-center gap-6 relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-secondary text-[11px] font-bold uppercase tracking-widest">
-            <MapPin className="h-4 w-4" />
-            <span>Immediate Roadside &amp; Driveway Attendance</span>
-          </div>
-          <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] text-white tracking-tight max-w-4xl font-extrabold">
-            Stuck with a tyre in Rochdale? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-white/70 max-w-2xl">
-            Do not wait hours for a recovery lorry or crawl on a dangerous rim. Direct Tyre Solutions dispatches right to your coordinates with the correct replacement.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center gap-4 pt-2">
-            <a className="flex items-center gap-3 px-8 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-2xl transition-all hover:scale-105 active:scale-95" href="tel:07955266077">
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call Now: 07955 266 077</span>
-            </a>
-            <a className="px-8 py-4 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold transition-all" href="#quick-quote">
-              Request Price Estimate
-            </a>
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-6 pt-4 text-sm text-secondary-hover">
-            <span className="flex items-center gap-1.5">
-              <ShieldCheck className="h-[18px] w-[18px] text-secondary" /> 24/7 All-Weather Callouts
-            </span>
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> Pay After Fitting
-            </span>
+      <section className="w-full bg-secondary py-16 md:py-20 px-4 md:px-6 lg:px-8 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl text-center flex flex-col items-center gap-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-secondary text-[11px] font-bold uppercase tracking-widest">
+              <MapPin className="h-4 w-4" />
+              <span>Immediate Roadside &amp; Driveway Attendance</span>
+            </div>
+            <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] text-white tracking-tight max-w-4xl font-extrabold">
+              Stuck with a tyre in Rochdale? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white/70 max-w-2xl">
+              Do not wait hours for a recovery lorry or crawl on a dangerous rim. Direct Tyre Solutions dispatches right to your coordinates with the correct replacement.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-4 pt-2">
+              <a className="flex items-center gap-3 px-8 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-2xl transition-all hover:scale-105 active:scale-95" href="tel:07955266077">
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call Now: 07955 266 077</span>
+              </a>
+              <a className="px-8 py-4 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold transition-all" href="#quick-quote">
+                Request Price Estimate
+              </a>
+            </div>
+            <div className="flex flex-wrap justify-center items-center gap-6 pt-4 text-sm text-secondary-hover">
+              <span className="flex items-center gap-1.5">
+                <ShieldCheck className="h-[18px] w-[18px] text-secondary" /> 24/7 All-Weather Callouts
+              </span>
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> Pay After Fitting
+              </span>
+            </div>
           </div>
         </div>
       </section>

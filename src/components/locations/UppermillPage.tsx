@@ -365,31 +365,33 @@ export default function UppermillPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="bg-primary-dark text-white py-16 md:py-20 relative overflow-hidden">
+      <section className="bg-secondary py-16 md:py-20 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <span className="text-secondary text-[11px] font-bold uppercase tracking-[0.06em] flex items-center justify-center gap-2 mb-2">
-            <Mountain className="h-4 w-4" /> Immediate Village Assistance
-          </span>
-          <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] font-bold tracking-tight text-white max-w-3xl mx-auto">
-            Stuck with a tyre in Uppermill? <span className="text-secondary">We&rsquo;re on our way.</span>
-          </h2>
-          <p className="text-lg text-white max-w-2xl mx-auto mt-4 mb-8">
-            Speak directly with our local technician. Quick dispatch, upfront prices, and zero recovery fees.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover text-lg font-bold shadow-lg transition-all"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call 07955 266 077 Now</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
+          <div className="bg-primary-dark text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <span className="text-secondary text-[11px] font-bold uppercase tracking-[0.06em] flex items-center justify-center gap-2 mb-2">
+              <Mountain className="h-4 w-4" /> Immediate Village Assistance
+            </span>
+            <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] font-bold tracking-tight text-white max-w-3xl mx-auto">
+              Stuck with a tyre in Uppermill? <span className="text-secondary">We&rsquo;re on our way.</span>
+            </h2>
+            <p className="text-lg text-white max-w-2xl mx-auto mt-4 mb-8">
+              Speak directly with our local technician. Quick dispatch, upfront prices, and zero recovery fees.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover text-lg font-bold shadow-lg transition-all"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call 07955 266 077 Now</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
           </div>
         </div>
       </section>

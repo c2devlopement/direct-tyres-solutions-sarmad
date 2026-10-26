@@ -479,7 +479,7 @@ export default function ChaddertonPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="bg-primary text-white py-12 md:py-18 relative overflow-hidden">
+      <section className="bg-secondary py-12 md:py-18 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="bg-gradient-to-r from-primary-dark via-primary to-primary rounded-2xl p-8 md:p-12 shadow-xl flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="space-y-2 text-center md:text-left max-w-xl">

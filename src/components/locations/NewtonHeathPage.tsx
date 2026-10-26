@@ -347,32 +347,34 @@ export default function NewtonHeathPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary-dark text-white py-16 md:py-20 text-center relative overflow-hidden">
+      <section className="w-full bg-secondary py-16 md:py-20 text-center relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 flex flex-col items-center">
-          <span className="w-3 h-3 rounded-full bg-secondary animate-ping mb-3" />
-          <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-wider mb-2">Instant Roadside &amp; Driveway Rescue</span>
-          <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] text-white font-extrabold max-w-3xl leading-tight mb-2">
-            Stuck with a tyre in Newton Heath? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-white max-w-2xl mx-auto mb-8 leading-relaxed">
-            Speak directly with a local dispatch controller. We locate your exact position and send the closest mobile fitting unit immediately.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a className="flex items-center justify-center gap-3 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-xl hover:scale-105 transition-all" href="tel:07955266077">
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call Now: 07955 266 077</span>
-            </a>
-            <Link className="flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors" href="/#contact">
-              Request Online Callback
-            </Link>
-          </div>
-          <div className="flex items-center gap-6 mt-6 text-secondary-hover text-sm">
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="h-4 w-4 text-secondary" /> 20–35 Min Dispatch
-            </span>
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="h-4 w-4 text-secondary" /> Card Paid on Site
-            </span>
+          <div className="bg-primary-dark text-white rounded-3xl p-8 md:p-12 shadow-2xl flex flex-col items-center">
+            <span className="w-3 h-3 rounded-full bg-secondary animate-ping mb-3" />
+            <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-wider mb-2">Instant Roadside &amp; Driveway Rescue</span>
+            <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] text-white font-extrabold max-w-3xl leading-tight mb-2">
+              Stuck with a tyre in Newton Heath? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-2xl mx-auto mb-8 leading-relaxed">
+              Speak directly with a local dispatch controller. We locate your exact position and send the closest mobile fitting unit immediately.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <a className="flex items-center justify-center gap-3 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-xl hover:scale-105 transition-all" href="tel:07955266077">
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call Now: 07955 266 077</span>
+              </a>
+              <Link className="flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors" href="/#contact">
+                Request Online Callback
+              </Link>
+            </div>
+            <div className="flex items-center gap-6 mt-6 text-secondary-hover text-sm">
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-secondary" /> 20–35 Min Dispatch
+              </span>
+              <span className="flex items-center gap-1.5">
+                <CheckCircle2 className="h-4 w-4 text-secondary" /> Card Paid on Site
+              </span>
+            </div>
           </div>
         </div>
       </section>

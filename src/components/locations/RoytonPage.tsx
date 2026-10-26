@@ -433,40 +433,42 @@ export default function RoytonPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary text-white py-16 relative overflow-hidden">
+      <section className="w-full bg-secondary py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/30 text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em] mb-4">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary" />
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/30 text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em] mb-4">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary" />
+              </span>
+              On-Call Dispatchers Ready
             </span>
-            On-Call Dispatchers Ready
-          </span>
-          <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white max-w-3xl mx-auto">
-            Stuck with a flat tyre in Royton? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-white/70 max-w-2xl mx-auto mt-2 leading-relaxed">
-            Don&rsquo;t let a flat tyre strand you on Rochdale Road or trap your car on your driveway. Call our rapid roadside squad now for immediate dispatch.
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover text-lg font-semibold shadow-2xl transition-all"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6" />
-              <span>Call 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white text-lg font-semibold transition-colors"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
-          </div>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-white/70 text-sm">
-            <span>• No membership required</span>
-            <span>• Fixed pricing upfront</span>
-            <span>• All major credit cards taken</span>
+            <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white max-w-3xl mx-auto">
+              Stuck with a flat tyre in Royton? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white/70 max-w-2xl mx-auto mt-2 leading-relaxed">
+              Don&rsquo;t let a flat tyre strand you on Rochdale Road or trap your car on your driveway. Call our rapid roadside squad now for immediate dispatch.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover text-lg font-semibold shadow-2xl transition-all"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6" />
+                <span>Call 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 hover:bg-white/20 text-white text-lg font-semibold transition-colors"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4 text-white/70 text-sm">
+              <span>• No membership required</span>
+              <span>• Fixed pricing upfront</span>
+              <span>• All major credit cards taken</span>
+            </div>
           </div>
         </div>
       </section>

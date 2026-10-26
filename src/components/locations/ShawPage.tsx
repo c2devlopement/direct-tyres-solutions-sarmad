@@ -460,9 +460,9 @@ export default function ShawPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary-dark py-12 lg:py-18">
+      <section className="w-full bg-secondary py-12 lg:py-18">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          <div className="rounded-3xl bg-secondary text-primary p-8 lg:p-12 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left relative overflow-hidden">
+          <div className="rounded-3xl bg-primary-dark text-white p-8 lg:p-12 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left relative overflow-hidden">
             <div className="absolute -left-12 -bottom-12 w-64 h-64 rounded-full bg-white/10 blur-2xl pointer-events-none" />
             <div className="max-w-2xl relative z-10">
               <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-secondary-hover">Immediate Roadside Dispatch</span>

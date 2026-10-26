@@ -51,7 +51,7 @@ export default function WinsfordPage() {
       </div>
       <div className="p-3 rounded-xl bg-primary/80 backdrop-blur-sm text-left">
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400 uppercase">Service Window</p>
-      <p className="font-heading text-[20px] leading-[26px] font-bold text-secondary">24/7 / 365 Days</p>
+      <p className="font-heading text-[20px] leading-[26px] font-bold text-white">24/7 / 365 Days</p>
       </div>
       <div className="p-3 rounded-xl bg-primary/80 backdrop-blur-sm text-left">
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400 uppercase">Alloy Protection</p>
@@ -129,7 +129,7 @@ export default function WinsfordPage() {
       <Headphones className="h-[18px] w-[18px]" />
       </span>
       <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-secondary uppercase tracking-wider">Direct Dispatch Desk</p>
+      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-white uppercase tracking-wider">Direct Dispatch Desk</p>
       <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">Need assistance now?</p>
       </div>
       </div>
@@ -173,7 +173,7 @@ export default function WinsfordPage() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6 pt-6 bg-primary-dark/50 rounded-xl p-4">
       <div>
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400 uppercase">Average Winsford Arrival</p>
-      <p className="font-heading text-[30px] leading-[38px] font-bold text-secondary font-heading">32 Mins</p>
+      <p className="font-heading text-[30px] leading-[38px] font-bold text-white font-heading">32 Mins</p>
       <p className="text-[13px] leading-[18px] text-gray-400">Live telemetry tracking</p>
       </div>
       <div>

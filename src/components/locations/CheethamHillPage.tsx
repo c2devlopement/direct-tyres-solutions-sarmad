@@ -197,7 +197,7 @@ export default function CheethamHillPage() {
                 <span className="text-[11px] font-bold uppercase">20–35 Min Window</span>
               </div>
               <h3 className="font-heading text-[22px] leading-[28px] font-bold text-white">Local Van Dispatched</h3>
-              <p className="mt-2 text-sm text-secondary-hover leading-relaxed">Our nearest mobile fitting van routes directly to your vehicle with the exact tyre dimensions and industrial tools on board.</p>
+              <p className="mt-2 text-sm text-white leading-relaxed">Our nearest mobile fitting van routes directly to your vehicle with the exact tyre dimensions and industrial tools on board.</p>
             </div>
             <div className="p-8 rounded-2xl bg-primary/60 border border-white/10 shadow-md flex flex-col">
               <div className="flex items-center justify-between mb-6">
@@ -218,7 +218,7 @@ export default function CheethamHillPage() {
             <div className="max-w-lg">
               <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em]">Immediate Radial Coverage</span>
               <h2 className="font-heading mt-1 text-[30px] leading-[38px] font-bold text-white">Serving Cheetham Hill &amp; Neighbouring Postcodes</h2>
-              <p className="mt-2 text-sm text-secondary-hover">Live vans circulating north Manchester arterial paths ensure guaranteed sub-40 min times across contiguous areas.</p>
+              <p className="mt-2 text-sm text-white">Live vans circulating north Manchester arterial paths ensure guaranteed sub-40 min times across contiguous areas.</p>
             </div>
             <div className="flex flex-wrap gap-3 items-center">
               {[
@@ -286,7 +286,7 @@ export default function CheethamHillPage() {
                 <h2 className="font-heading mt-2 text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white">
                   Get an instant estimate for tyre fitting in Cheetham Hill
                 </h2>
-                <p className="mt-2 text-base text-secondary-hover max-w-xl">
+                <p className="mt-2 text-base text-white max-w-xl">
                   From emergency single-tyre swaps to complete fleet replacements. All quotes include mobile call-out, laser balancing, new rubber valves, and disposal.
                 </p>
               </div>
@@ -367,33 +367,35 @@ export default function CheethamHillPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full py-16 md:py-20 bg-primary text-white relative overflow-hidden">
+      <section className="w-full py-16 md:py-20 bg-secondary relative overflow-hidden">
         <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-secondary mb-4">
-            <Zap className="h-4 w-4" />
-            <span className="text-[11px] font-bold uppercase tracking-wider">Rapid Mobilisation Guaranteed</span>
-          </div>
-          <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white max-w-3xl">
-            Stuck with a tyre in Cheetham Hill? We&rsquo;re on our way.
-          </h2>
-          <p className="mt-4 text-lg text-secondary-hover max-w-xl">
-            Roadside blowout, puncture, or replacement on your driveway — call our 24/7 dispatch desk right now.
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-            <a
-              className="flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-secondary hover:bg-secondary-hover text-primary text-lg font-bold shadow-[0_10px_28px_rgba(27,97,255,0.45)] transition-all hover:scale-105 active:scale-95"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-[26px] w-[26px] text-secondary" fill="currentColor" strokeWidth={0} />
-              <span>Call Now: 07955 266 077</span>
-            </a>
-          </div>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-secondary-hover text-sm">
-            {["No Tow Truck Fees", "Fitted On Location", "24/7 Availability"].map((t) => (
-              <span key={t} className="flex items-center gap-1.5">
-                <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> {t}
-              </span>
-            ))}
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl flex flex-col items-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-secondary mb-4">
+              <Zap className="h-4 w-4" />
+              <span className="text-[11px] font-bold uppercase tracking-wider">Rapid Mobilisation Guaranteed</span>
+            </div>
+            <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-extrabold text-white max-w-3xl">
+              Stuck with a tyre in Cheetham Hill? We&rsquo;re on our way.
+            </h2>
+            <p className="mt-4 text-lg text-white max-w-xl">
+              Roadside blowout, puncture, or replacement on your driveway — call our 24/7 dispatch desk right now.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
+              <a
+                className="flex items-center justify-center gap-3 px-10 py-5 rounded-2xl bg-secondary hover:bg-secondary-hover text-primary text-lg font-bold shadow-[0_10px_28px_rgba(27,97,255,0.45)] transition-all hover:scale-105 active:scale-95"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-[26px] w-[26px] text-secondary" fill="currentColor" strokeWidth={0} />
+                <span>Call Now: 07955 266 077</span>
+              </a>
+            </div>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-secondary-hover text-sm">
+              {["No Tow Truck Fees", "Fitted On Location", "24/7 Availability"].map((t) => (
+                <span key={t} className="flex items-center gap-1.5">
+                  <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> {t}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </section>

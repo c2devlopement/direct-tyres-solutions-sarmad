@@ -52,7 +52,7 @@ export default function GortonPage() {
             <h1 className="font-heading uppercase text-[28px] leading-[36px] sm:text-[36px] sm:leading-[44px] font-bold tracking-tight mb-2">
               24/7 Mobile Tyre Fitting in <span className="text-secondary">Gorton</span>
             </h1>
-            <p className="text-base text-secondary-hover mb-6 max-w-xl">
+            <p className="text-base text-white mb-6 max-w-xl">
               Fast roadside &amp; doorstep mobile tyre replacement across Gorton — average arrival in <strong className="text-secondary font-semibold">20–35 minutes</strong>.
             </p>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -194,7 +194,7 @@ export default function GortonPage() {
             <div className="max-w-xl">
               <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">East Manchester Operational Hub</span>
               <h2 className="font-heading text-[22px] leading-[28px] font-bold text-white mt-1">Serving Gorton &amp; Adjacent Districts Daily</h2>
-              <p className="text-sm text-secondary-hover mt-1">Vans circulate through arterial intersections ready to divert to your emergency roadside pin within moments.</p>
+              <p className="text-sm text-white mt-1">Vans circulate through arterial intersections ready to divert to your emergency roadside pin within moments.</p>
             </div>
             <div className="flex flex-wrap gap-2.5">
               {["Longsight", "Belle Vue", "Openshaw", "Denton"].map((a) => (
@@ -248,7 +248,7 @@ export default function GortonPage() {
           <div className="flex flex-col gap-2 max-w-xl text-center md:text-left">
             <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">Transparent Upfront Pricing</span>
             <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Get an instant estimate for tyre fitting in Gorton</h2>
-            <p className="text-base text-secondary-hover">Zero hidden mobile callout fees. Our quote covers the tyre, valve, balancing, roadside fitting, and environmental tyre disposal.</p>
+            <p className="text-base text-white">Zero hidden mobile callout fees. Our quote covers the tyre, valve, balancing, roadside fitting, and environmental tyre disposal.</p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full sm:w-auto">
             <a className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold transition-all shadow-md" href="tel:07955266077">
@@ -335,39 +335,41 @@ export default function GortonPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary text-white py-16 md:py-20 relative overflow-hidden">
+      <section className="w-full bg-secondary py-16 md:py-20 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full text-secondary mb-3">
-            <span className="w-2 h-2 rounded-full bg-secondary animate-ping" />
-            <span className="text-[11px] font-bold uppercase tracking-wider">24/7 Mobile Dispatch Active</span>
-          </div>
-          <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] font-bold tracking-tight max-w-3xl mb-2">
-            Stuck with a tyre in Gorton? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-secondary-hover max-w-xl mb-8">
-            Don&rsquo;t wait hours for a tow truck. Call our direct dispatch phone now for guaranteed rapid mobile tyre repair or replacement.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-xl hover:scale-105 active:scale-98 transition-all"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call Now: 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-all"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-6 mt-8 text-secondary-hover text-sm">
-            {["No Garage Tow Needed", "20–35 Min Arrival", "All Major Brands Stocked"].map((t) => (
-              <span key={t} className="flex items-center gap-1.5">
-                <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> {t}
-              </span>
-            ))}
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl flex flex-col items-center">
+            <div className="inline-flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full text-secondary mb-3">
+              <span className="w-2 h-2 rounded-full bg-secondary animate-ping" />
+              <span className="text-[11px] font-bold uppercase tracking-wider">24/7 Mobile Dispatch Active</span>
+            </div>
+            <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] font-bold tracking-tight max-w-3xl mb-2">
+              Stuck with a tyre in Gorton? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-xl mb-8">
+              Don&rsquo;t wait hours for a tow truck. Call our direct dispatch phone now for guaranteed rapid mobile tyre repair or replacement.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary font-bold shadow-xl hover:scale-105 active:scale-98 transition-all"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call Now: 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-all"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
+            <div className="flex flex-wrap justify-center items-center gap-6 mt-8 text-secondary-hover text-sm">
+              {["No Garage Tow Needed", "20–35 Min Arrival", "All Major Brands Stocked"].map((t) => (
+                <span key={t} className="flex items-center gap-1.5">
+                  <CheckCircle2 className="h-[18px] w-[18px] text-secondary" /> {t}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </section>

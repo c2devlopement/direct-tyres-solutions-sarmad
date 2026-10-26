@@ -72,7 +72,7 @@ export default function NelsonPage() {
       <Navigation className="h-5 w-5" />
       </div>
       <div>
-      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-secondary uppercase">Patrol Unit Active</p>
+      <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-white uppercase">Patrol Unit Active</p>
       <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white">Nelson &amp; Pendle Sector</p>
       </div>
       </div>
@@ -301,7 +301,7 @@ export default function NelsonPage() {
       </div>
       <div className="bg-primary-dark p-3 rounded-xl">
       <p className="text-[11px] leading-[14px] tracking-[0.06em] font-bold text-gray-400">Arrival Time</p>
-      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-secondary mt-1">21 Minutes</p>
+      <p className="font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold text-white mt-1">21 Minutes</p>
       <p className="text-[13px] leading-[18px] text-gray-400">Target met</p>
       </div>
       <div className="bg-primary-dark p-3 rounded-xl">

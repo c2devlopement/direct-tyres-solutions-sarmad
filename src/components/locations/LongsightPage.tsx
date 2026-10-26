@@ -59,7 +59,7 @@ export default function LongsightPage() {
                   <ShieldCheck className="h-7 w-7 text-secondary" />
                   <div>
                     <p className="text-sm font-bold text-white">Longsight Dedicated Fast Van Unit</p>
-                    <p className="text-xs text-secondary-hover">Serving Stockport Road, Kirkmanshulme, &amp; North Road corridors</p>
+                    <p className="text-xs text-white">Serving Stockport Road, Kirkmanshulme, &amp; North Road corridors</p>
                   </div>
                 </div>
                 <div className="hidden sm:flex items-center gap-2 bg-white/15 backdrop-blur-md px-3 py-1.5 rounded-xl text-white">
@@ -116,7 +116,7 @@ export default function LongsightPage() {
                 <MapPin className="h-8 w-8 text-secondary" />
                 <div>
                   <p className="text-sm font-bold">Stockport Rd Fleet Base</p>
-                  <p className="text-xs text-secondary-hover">Fully Equipped Van #04 On Standby</p>
+                  <p className="text-xs text-white">Fully Equipped Van #04 On Standby</p>
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function LongsightPage() {
             <div className="flex flex-col max-w-xl text-center lg:text-left">
               <span className="text-secondary text-[11px] font-bold uppercase tracking-wider">Fast-Response Perimeter</span>
               <h3 className="font-heading text-[30px] leading-[38px] font-bold text-white mt-1">Covering Longsight &amp; Adjacent Corridors</h3>
-              <p className="text-sm text-secondary-hover mt-2">Technicians are constantly positioned along the A6, A34, and Hyde Road arteries for sub-30 minute intervention.</p>
+              <p className="text-sm text-white mt-2">Technicians are constantly positioned along the A6, A34, and Hyde Road arteries for sub-30 minute intervention.</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3">
               {["Gorton", "Levenshulme", "Rusholme", "Manchester City Centre"].map((a) => (
@@ -256,7 +256,7 @@ export default function LongsightPage() {
               <div className="lg:col-span-8 flex flex-col gap-2">
                 <span className="text-secondary text-[11px] font-bold uppercase tracking-widest">No Hidden Callout Shocks</span>
                 <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Get an instant estimate for tyre fitting in Longsight</h2>
-                <p className="text-base text-secondary-hover leading-relaxed">
+                <p className="text-base text-white leading-relaxed">
                   Transparent, all-inclusive pricing. Every roadside quote includes mobile dispatch, tyre mounting, computerized wheel balancing, brand new valve, and disposal of your old tyre.
                 </p>
               </div>
@@ -321,28 +321,30 @@ export default function LongsightPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full bg-primary text-white py-16 md:py-20 relative overflow-hidden">
+      <section className="w-full bg-secondary py-16 md:py-20 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] font-bold tracking-tight max-w-3xl mx-auto mb-2">
-            Stuck with a tyre in Longsight? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-secondary-hover max-w-2xl mx-auto mb-8">
-            Speak directly with a local dispatch controller. We locate your exact position and send the closest mobile fitting unit immediately.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary text-lg font-bold shadow-2xl transition-all"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call Now: 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
+          <div className="bg-primary text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <h2 className="font-heading text-[30px] leading-[38px] sm:text-[40px] sm:leading-[48px] font-bold tracking-tight max-w-3xl mx-auto mb-2">
+              Stuck with a tyre in Longsight? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-2xl mx-auto mb-8">
+              Speak directly with a local dispatch controller. We locate your exact position and send the closest mobile fitting unit immediately.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-12 py-4 rounded-xl bg-secondary hover:bg-secondary-hover text-primary text-lg font-bold shadow-2xl transition-all"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call Now: 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold transition-colors"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
           </div>
         </div>
       </section>

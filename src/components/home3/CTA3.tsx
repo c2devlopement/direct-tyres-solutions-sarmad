@@ -6,7 +6,7 @@ export default function CTA3() {
   const telHref = `tel:${siteConfig3.phone.replace(/\s/g, "")}`;
 
   return (
-    <section id="contact" className="py-16 px-4 md:px-8 scroll-mt-24">
+    <section id="contact" className="py-16 px-4 md:px-8 scroll-mt-24 bg-secondary">
       <div className="max-w-7xl mx-auto">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl bg-primary-dark p-8 md:p-10 shadow-xl">
@@ -59,7 +59,7 @@ export default function CTA3() {
                 </span>
                 <div>
                   <h2 className="text-2xl md:text-3xl font-black text-white">Need Help Now?</h2>
-                  <p className="text-secondary font-bold text-lg">We&apos;re Ready 24/7</p>
+                  <p className="text-white font-bold text-lg">We&apos;re Ready 24/7</p>
                   <p className="text-white/80 text-sm mt-1 max-w-md">
                     Fast response, expert service, wherever you are in the UK.
                   </p>

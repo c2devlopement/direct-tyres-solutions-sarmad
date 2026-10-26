@@ -48,7 +48,7 @@ export default function ManchesterCityCentrePage() {
                   24/7 Mobile Tyre Fitting in{" "}
                   <span className="text-secondary">Manchester City Centre</span>
                 </h1>
-                <p className="text-lg text-secondary-hover max-w-2xl leading-relaxed">
+                <p className="text-lg text-white max-w-2xl leading-relaxed">
                   Specialist mobile tyre technicians equipped for city centre multi-storeys, underground car parks, and curbside emergencies in 15–30 minutes.
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function ManchesterCityCentrePage() {
                       <span className="flex items-center gap-1 text-xs font-bold text-secondary">Van #04 Active</span>
                     </div>
                     <div className="text-lg font-semibold text-white">Spinningfields / Deansgate Loop</div>
-                    <p className="text-sm text-secondary-hover">Low-clearance Mercedes Sprinter equipped with onboard air compressor, digital dynamic balancer &amp; run-flat demount arms.</p>
+                    <p className="text-sm text-white">Low-clearance Mercedes Sprinter equipped with onboard air compressor, digital dynamic balancer &amp; run-flat demount arms.</p>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ export default function ManchesterCityCentrePage() {
           <div className="max-w-2xl space-y-1">
             <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em]">Precision Engineering On Location</span>
             <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white">Specialist Mobile Services in M1–M4</h2>
-            <p className="text-base text-secondary-hover">Every van carries computerized diagnostic balancing machinery, bead breakers, and high-tensile extraction kits for zero-damage wheel servicing.</p>
+            <p className="text-base text-white">Every van carries computerized diagnostic balancing machinery, bead breakers, and high-tensile extraction kits for zero-damage wheel servicing.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
@@ -161,7 +161,7 @@ export default function ManchesterCityCentrePage() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="font-heading text-[22px] leading-[28px] font-semibold text-white">{service.title}</h3>
-                  <p className="text-base text-secondary-hover leading-relaxed">{service.body}</p>
+                  <p className="text-base text-white leading-relaxed">{service.body}</p>
                 </div>
                 <ul className="space-y-1 pt-1">
                   {service.points.map((p) => (
@@ -200,7 +200,7 @@ export default function ManchesterCityCentrePage() {
                 </div>
                 <div className="space-y-1">
                   <h3 className="font-heading text-[22px] leading-[28px] font-semibold text-white">{step.title}</h3>
-                  <p className="text-sm text-secondary-hover leading-relaxed">{step.body}</p>
+                  <p className="text-sm text-white leading-relaxed">{step.body}</p>
                 </div>
                 <span className="text-[11px] font-bold text-secondary-hover uppercase tracking-wider block">{step.note}</span>
               </div>
@@ -217,7 +217,7 @@ export default function ManchesterCityCentrePage() {
               <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em]">Inner City Patrol Zones</span>
               <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Continuous Mobile Coverage Around Manchester Core</h2>
             </div>
-            <p className="text-sm text-secondary-hover max-w-md">Our vans loop continuously through primary downtown arteries to bypass gridlocked arterial ring roads.</p>
+            <p className="text-sm text-white max-w-md">Our vans loop continuously through primary downtown arteries to bypass gridlocked arterial ring roads.</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-primary text-sm font-semibold shadow-md">
@@ -286,7 +286,7 @@ export default function ManchesterCityCentrePage() {
                   Direct Postcode Guarantee
                 </div>
                 <h2 className="font-heading text-[40px] leading-[48px] tracking-[-0.02em] font-bold text-white">Transparent Pricing Across M1, M2, M3 &amp; M4</h2>
-                <p className="text-lg text-secondary-hover max-w-2xl leading-relaxed">
+                <p className="text-lg text-white max-w-2xl leading-relaxed">
                   No hidden congestion charges, clean air surcharge surprises, or mystery fees. We quote your exact all-inclusive tyre price upfront before the technician deploys to your location.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
@@ -301,7 +301,7 @@ export default function ManchesterCityCentrePage() {
               <div className="lg:col-span-4 flex flex-col items-center justify-center p-6 rounded-2xl bg-white/[0.04] backdrop-blur-md text-center space-y-2">
                 <span className="text-[11px] font-bold text-secondary-hover uppercase tracking-wider">Fastest City Dispatch</span>
                 <div className="text-[40px] leading-[48px] font-extrabold text-white">Instant Quote</div>
-                <p className="text-sm text-secondary-hover">Speak to our 24-hour Manchester logistics controller right now.</p>
+                <p className="text-sm text-white">Speak to our 24-hour Manchester logistics controller right now.</p>
                 <a
                   className="w-full py-3 px-4 rounded-lg bg-secondary text-primary font-semibold hover:bg-secondary-hover transition-all shadow-md"
                   href="tel:07955266077"
@@ -334,7 +334,7 @@ export default function ManchesterCityCentrePage() {
                   <span className="text-lg font-semibold text-white">{faq.q}</span>
                   <ChevronDown className="h-6 w-6 text-secondary-hover transition-transform duration-300 group-open:rotate-180 shrink-0" />
                 </summary>
-                <p className="px-6 pb-6 text-secondary-hover text-base leading-relaxed">{faq.a}</p>
+                <p className="px-6 pb-6 text-white text-base leading-relaxed">{faq.a}</p>
               </details>
             ))}
           </div>
@@ -348,7 +348,7 @@ export default function ManchesterCityCentrePage() {
             <div className="lg:col-span-5 space-y-4">
               <span className="text-secondary-hover text-[11px] font-bold uppercase tracking-[0.06em]">Live Response Radius</span>
               <h2 className="font-heading text-[30px] leading-[38px] font-bold text-white">Stationed Centrally in the M1–M4 Core</h2>
-              <p className="text-base text-secondary-hover">
+              <p className="text-base text-white">
                 Our strategic hub placement guarantees quick access to major transit lines including Deansgate, the Mancunian Way, and the M60 ring. A rapid dispatch perimeter ensures no stranded motorist or basement breakdown is left unattended.
               </p>
               <div className="p-4 rounded-xl bg-white/5 space-y-2">
@@ -372,31 +372,33 @@ export default function ManchesterCityCentrePage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="bg-primary-dark text-white py-16 relative overflow-hidden">
+      <section className="bg-secondary py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary/20 text-secondary-hover mb-4">
-            <span className="text-[11px] font-bold uppercase tracking-[0.06em]">Immediate 24/7 Mobile Assistance</span>
-          </div>
-          <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] text-white mb-4 max-w-3xl mx-auto">
-            Stuck with a tyre in Manchester City Centre? We&rsquo;re on our way.
-          </h2>
-          <p className="text-lg text-secondary-hover max-w-xl mx-auto mb-8">
-            Whether you&rsquo;re on Deansgate, in a Spinningfields basement, or on level 4 of an NCP, our low-clearance vans get to you fast.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-lg text-lg font-semibold"
-              href="tel:07955266077"
-            >
-              <PhoneCall className="h-6 w-6 text-secondary" />
-              <span>Call 07955 266 077</span>
-            </a>
-            <Link
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 text-white hover:bg-white/20 transition-colors text-sm font-semibold"
-              href="/#contact"
-            >
-              Request Online Callback
-            </Link>
+          <div className="bg-primary-dark text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary/20 text-secondary-hover mb-4">
+              <span className="text-[11px] font-bold uppercase tracking-[0.06em]">Immediate 24/7 Mobile Assistance</span>
+            </div>
+            <h2 className="font-heading text-[40px] leading-[48px] md:text-[56px] md:leading-[64px] tracking-[-0.02em] md:tracking-[-0.03em] text-white mb-4 max-w-3xl mx-auto">
+              Stuck with a tyre in Manchester City Centre? We&rsquo;re on our way.
+            </h2>
+            <p className="text-lg text-white max-w-xl mx-auto mb-8">
+              Whether you&rsquo;re on Deansgate, in a Spinningfields basement, or on level 4 of an NCP, our low-clearance vans get to you fast.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-secondary text-primary hover:bg-secondary-hover transition-all shadow-lg text-lg font-semibold"
+                href="tel:07955266077"
+              >
+                <PhoneCall className="h-6 w-6 text-secondary" />
+                <span>Call 07955 266 077</span>
+              </a>
+              <Link
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white/10 text-white hover:bg-white/20 transition-colors text-sm font-semibold"
+                href="/#contact"
+              >
+                Request Online Callback
+              </Link>
+            </div>
           </div>
         </div>
       </section>

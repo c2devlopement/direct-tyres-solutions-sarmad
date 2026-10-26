@@ -491,7 +491,7 @@ export default function FailsworthPage() {
       </section>
 
       {/* 10. CLOSING CTA */}
-      <section className="w-full py-12 bg-primary text-white relative overflow-hidden">
+      <section className="w-full py-12 bg-secondary relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="bg-gradient-to-r from-primary-dark via-primary to-primary rounded-2xl p-8 md:p-12 shadow-xl flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="space-y-2 text-center md:text-left max-w-xl">

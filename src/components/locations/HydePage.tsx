@@ -54,7 +54,7 @@ export default function HydePage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-5 py-4 rounded-full backdrop-blur-md transition-colors text-center" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-5 py-4 rounded-full backdrop-blur-md transition-colors text-center" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[20px] w-[20px] text-green-400" />
       <span>WhatsApp</span>
       </a>
@@ -484,7 +484,7 @@ export default function HydePage() {
       <PhoneCall className="h-[22px] w-[22px]" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full backdrop-blur-md transition-colors text-center" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-6 py-4 rounded-full backdrop-blur-md transition-colors text-center" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-[22px] w-[22px] text-green-400" />
       <span>Message on WhatsApp</span>
       </a>

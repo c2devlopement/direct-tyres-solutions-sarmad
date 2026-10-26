@@ -28,7 +28,7 @@ export default function MossleyPage() {
       <PhoneCall className="h-6 w-6" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="w-full sm:w-auto px-8 py-4 rounded-full bg-green-500 hover:bg-green-500 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold transition-all duration-200 transform active:scale-95 shadow-xl flex items-center justify-center gap-3" href="https://wa.me/448009992470?text=I%20need%20emergency%20tyre%20assistance%20in%20Mossley" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto px-8 py-4 rounded-full bg-green-500 hover:bg-green-500 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold transition-all duration-200 transform active:scale-95 shadow-xl flex items-center justify-center gap-3" href="https://wa.me/447955266077?text=I%20need%20emergency%20tyre%20assistance%20in%20Mossley" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-6 w-6" />
                 WhatsApp Dispatch
               </a>
@@ -425,7 +425,7 @@ export default function MossleyPage() {
       <PhoneCall className="h-6 w-6" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="w-full sm:w-auto px-8 py-5 rounded-full bg-primary hover:bg-primary-light text-white border border-white/20 font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold transition-all duration-200 transform active:scale-95 flex items-center justify-center gap-3" href="https://wa.me/448009992470?text=I%20need%20emergency%20tyre%20fitting%20in%20Mossley" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto px-8 py-5 rounded-full bg-primary hover:bg-primary-light text-white border border-white/20 font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold transition-all duration-200 transform active:scale-95 flex items-center justify-center gap-3" href="https://wa.me/447955266077?text=I%20need%20emergency%20tyre%20fitting%20in%20Mossley" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="h-5 w-5" />
                   Message WhatsApp
                 </a>

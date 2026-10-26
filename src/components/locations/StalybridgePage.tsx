@@ -52,7 +52,7 @@ export default function StalybridgePage() {
       <PhoneCall className="font-bold h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>CALL 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold border border-white/10 transition-all hover:scale-[1.02] active:scale-95" href="https://wa.me/448009992470?text=I%20need%20emergency%20tyre%20assistance%20in%20Stalybridge" rel="noopener noreferrer" target="_blank">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold border border-white/10 transition-all hover:scale-[1.02] active:scale-95" href="https://wa.me/447955266077?text=I%20need%20emergency%20tyre%20assistance%20in%20Stalybridge" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-secondary h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>

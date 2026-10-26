@@ -29,7 +29,7 @@ export default function EcclesPage() {
       <PhoneCall className="h-5 w-5" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white backdrop-blur-md font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all shadow-md" href="https://wa.me/448009992470?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Eccles">
+      <a className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white backdrop-blur-md font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all shadow-md" href="https://wa.me/447955266077?text=I%20need%20urgent%20mobile%20tyre%20assistance%20in%20Eccles">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>

@@ -30,7 +30,7 @@ export default function MiddlewichPage() {
       <PhoneCall className="h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center gap-2 bg-primary/80 hover:bg-primary backdrop-blur-md text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-4 rounded-full transition-colors shadow-md" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center gap-2 bg-primary/80 hover:bg-primary backdrop-blur-md text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-4 rounded-full transition-colors shadow-md" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>
@@ -525,7 +525,7 @@ export default function MiddlewichPage() {
       <PhoneCall className="text-secondary h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-primary/10 hover:bg-primary/20 text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-5 rounded-full transition-colors text-center" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-primary/10 hover:bg-primary/20 text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-7 py-5 rounded-full transition-colors text-center" href="https://wa.me/447955266077">
       <MessageCircle className="h-5 w-5" />
       <span>WhatsApp</span>
       </a>

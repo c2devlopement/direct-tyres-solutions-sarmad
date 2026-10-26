@@ -30,7 +30,7 @@ export default function AccringtonPage() {
       <PhoneCall className="h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-8 py-4 rounded-full bg-primary/80 backdrop-blur-md text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all hover:bg-primary-light active:scale-95" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-8 py-4 rounded-full bg-primary/80 backdrop-blur-md text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all hover:bg-primary-light active:scale-95" href="https://wa.me/447955266077">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>
@@ -417,7 +417,7 @@ export default function AccringtonPage() {
       <PhoneForwarded className="text-secondary h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-8 py-5 rounded-full bg-primary/80 backdrop-blur-md text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary/80 active:scale-95 transition-all font-bold" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-8 py-5 rounded-full bg-primary/80 backdrop-blur-md text-primary font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary/80 active:scale-95 transition-all font-bold" href="https://wa.me/447955266077">
       <MessageCircle className="h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>

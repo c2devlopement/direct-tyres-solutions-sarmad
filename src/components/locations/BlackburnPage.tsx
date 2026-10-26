@@ -28,7 +28,7 @@ export default function BlackburnPage() {
       <PhoneCall className="h-6 w-6" />
                     Call 07955 266 077
                   </a>
-      <a className="inline-flex items-center justify-center gap-2 bg-primary/80 hover:bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-7 py-4 rounded-full transition-colors backdrop-blur-md" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-2 bg-primary/80 hover:bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold px-7 py-4 rounded-full transition-colors backdrop-blur-md" href="https://wa.me/447955266077">
       <MessageCircle className="h-5 w-5 text-secondary" />
                     WhatsApp Dispatch
                   </a>

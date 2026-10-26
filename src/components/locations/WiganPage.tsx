@@ -30,7 +30,7 @@ export default function WiganPage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all shadow-md active:scale-95" href="https://wa.me/448009992470">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-all shadow-md active:scale-95" href="https://wa.me/447955266077">
       <MessageCircle className="text-gray-400 h-[20px] w-[20px]" />
                   WhatsApp Instant Quote
                 </a>
@@ -430,7 +430,7 @@ export default function WiganPage() {
       <PhoneCall className="h-[20px] w-[20px]" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-white/20 hover:bg-white/30 text-primary-dark text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all border border-primary-dark/20 active:scale-95" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-white/20 hover:bg-white/30 text-primary-dark text-[14px] leading-[18px] tracking-[0.02em] font-semibold transition-all border border-primary-dark/20 active:scale-95" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px]" />
                   WhatsApp Quote
                 </a>

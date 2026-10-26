@@ -29,7 +29,7 @@ export default function BurnleyPage() {
       <PhoneCall className="h-6 w-6" fill="currentColor" strokeWidth={0} />
                   Call 07955 266 077
                 </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/90 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider font-semibold shadow-md hover:bg-primary-light active:scale-95 transition-all" href="https://wa.me/448009992470?text=I%20need%20emergency%20tyre%20fitting%20in%20Burnley">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/90 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider font-semibold shadow-md hover:bg-primary-light active:scale-95 transition-all" href="https://wa.me/447955266077?text=I%20need%20emergency%20tyre%20fitting%20in%20Burnley">
       <MessageCircle className="h-6 w-6 text-accent" />
                   WhatsApp Dispatch
                 </a>
@@ -440,7 +440,7 @@ export default function BurnleyPage() {
       <PhoneCall className="text-secondary h-6 w-6" fill="currentColor" strokeWidth={0} />
                 Call 07955 266 077
               </a>
-      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider font-bold shadow-xl hover:brightness-110 active:scale-95 transition-all" href="https://wa.me/448009992470?text=Emergency%20tyre%20fitting%20in%20Burnley">
+      <a className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider font-bold shadow-xl hover:brightness-110 active:scale-95 transition-all" href="https://wa.me/447955266077?text=Emergency%20tyre%20fitting%20in%20Burnley">
       <MessageCircle className="text-white h-6 w-6" />
                 WhatsApp Dispatch
               </a>

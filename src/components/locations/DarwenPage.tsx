@@ -28,7 +28,7 @@ export default function DarwenPage() {
       <PhoneCall className="h-[18px] w-[18px]" />
                   Call 07955 266 077
                 </a>
-      <a className="w-full py-3.5 px-6 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold flex items-center justify-center gap-2 transition-colors hover:bg-primary-light text-center" href="https://wa.me/448009992470">
+      <a className="w-full py-3.5 px-6 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold flex items-center justify-center gap-2 transition-colors hover:bg-primary-light text-center" href="https://wa.me/447955266077">
       <MessageCircle className="h-[18px] w-[18px] text-gray-400" />
                   WhatsApp Dispatch
                 </a>
@@ -417,7 +417,7 @@ export default function DarwenPage() {
       <PhoneCall className="h-5 w-5" />
                   Call 07955 266 077
                 </a>
-      <a className="w-full sm:w-auto py-4 px-8 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold flex items-center justify-center gap-2 hover:bg-primary-light transition-colors" href="https://wa.me/448009992470">
+      <a className="w-full sm:w-auto py-4 px-8 rounded-full bg-primary text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold flex items-center justify-center gap-2 hover:bg-primary-light transition-colors" href="https://wa.me/447955266077">
       <MessageCircle className="text-gray-400 h-5 w-5" />
                   WhatsApp Dispatch
                 </a>

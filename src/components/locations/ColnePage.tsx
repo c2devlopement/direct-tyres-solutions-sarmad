@@ -35,7 +35,7 @@ export default function ColnePage() {
       <PhoneCall className="text-primary h-6 w-6 group-hover:animate-bounce" />
       <span>07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold shadow-md hover:bg-primary transition duration-200" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold shadow-md hover:bg-primary transition duration-200" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>Send Location via WhatsApp</span>
       </a>

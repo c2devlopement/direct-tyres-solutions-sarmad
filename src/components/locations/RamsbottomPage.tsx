@@ -29,7 +29,7 @@ export default function RamsbottomPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all active:scale-95 text-center" href="https://wa.me/448009992470">
+      <a className="flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary transition-all active:scale-95 text-center" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px] text-accent" />
       <span>WhatsApp Us</span>
       </a>
@@ -429,7 +429,7 @@ export default function RamsbottomPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="flex items-center justify-center gap-3 w-full py-4 px-6 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider shadow-lg hover:bg-blue-600 transition-all active:scale-95 text-center" href="https://wa.me/448009992470">
+      <a className="flex items-center justify-center gap-3 w-full py-4 px-6 rounded-full bg-accent text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold uppercase tracking-wider shadow-lg hover:bg-blue-600 transition-all active:scale-95 text-center" href="https://wa.me/447955266077">
       <MessageCircle className="h-[20px] w-[20px]" />
       <span>WhatsApp Technician</span>
       </a>

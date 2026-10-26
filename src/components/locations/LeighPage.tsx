@@ -30,7 +30,7 @@ export default function LeighPage() {
       <PhoneCall className="text-[20px] leading-[26px] font-bold h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>Call 07955 266 077</span>
       </a>
-      <a className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-colors" href="https://wa.me/448009992470" rel="noopener noreferrer" target="_blank">
+      <a className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full bg-primary/80 text-white text-[14px] leading-[18px] tracking-[0.02em] font-semibold hover:bg-primary transition-colors" href="https://wa.me/447955266077" rel="noopener noreferrer" target="_blank">
       <MessageCircle className="text-accent h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>

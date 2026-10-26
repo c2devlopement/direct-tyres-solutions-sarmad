@@ -48,7 +48,7 @@ export default function BradfordPage() {
       <PhoneCall className="font-bold text-primary h-5 w-5" fill="currentColor" strokeWidth={0} />
       <span>07955 266 077</span>
       </a>
-      <a className="flex items-center justify-center gap-3 px-7 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary-light transition-all shadow-md" href="https://wa.me/448009992470">
+      <a className="flex items-center justify-center gap-3 px-7 py-4 rounded-full bg-primary/80 text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold hover:bg-primary-light transition-all shadow-md" href="https://wa.me/447955266077">
       <MessageCircle className="text-secondary h-5 w-5" />
       <span>WhatsApp Dispatch</span>
       </a>

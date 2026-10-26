@@ -96,7 +96,7 @@ export default function RuncornPage() {
       <PhoneCall className="h-[20px] w-[20px]" />
                       Call 07955 266 077
                     </a>
-      <a className="bg-primary/80 hover:bg-primary-light text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-6 py-3.5 rounded-full shadow flex items-center gap-2 transition-colors" href="https://wa.me/448009992470">
+      <a className="bg-primary/80 hover:bg-primary-light text-white font-heading text-[16px] leading-[22px] tracking-[0.01em] font-bold px-6 py-3.5 rounded-full shadow flex items-center gap-2 transition-colors" href="https://wa.me/447955266077">
       <MessageCircle className="text-emerald-400 h-[20px] w-[20px]" />
                       WhatsApp Dispatch
                     </a>
